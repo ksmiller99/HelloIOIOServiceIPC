@@ -4,15 +4,15 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidAccessory\\5.07\\res\\xml\\accessory_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\xml\\accessory_filter.xml",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidAccessory\\5.07\\res\\xml\\accessory_filter.xml"
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidDevice\\5.07\\res\\xml\\device_filter.xml"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidDevice\\5.07\\res\\xml\\device_filter.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\xml\\device_filter.xml",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidDevice\\5.07\\res\\xml\\device_filter.xml"
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\xml\\accessory_filter.xml",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\exploded-aar\\com.github.ytai.ioio\\IOIOLibAndroidAccessory\\5.07\\res\\xml\\accessory_filter.xml"
     }
 ]
