@@ -19,8 +19,10 @@ public class MainActivity extends Activity {
     boolean isBound = false;
     Messenger messenger = null;
 
-    public static final int REPLY_MSG_ON = 1;
-    public static final int REPLY_MSG_OFF = 2;
+    public static final int LED_ON_REQUEST = 1;
+    public static final int LED_OFF_REQUEST = 2;
+    public static final int LED_ON_REPLY = 3;
+    public static final int LED_OFF_REPLY = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -79,16 +81,14 @@ public class MainActivity extends Activity {
         public void handleMessage(Message msg) {
 
             switch (msg.what) {
-                case REPLY_MSG_ON:
-                    Toast.makeText(getApplicationContext(), "REPLY_MSG_ON message handled", Toast.LENGTH_SHORT).show();
-
+                case LED_ON_REPLY:
+                    Toast.makeText(getApplicationContext(), "LED_ON_REPLY message handled", Toast.LENGTH_SHORT).show();
                     break;
 
-                case REPLY_MSG_OFF:
-                    Toast.makeText(getApplicationContext(), "REPLY_MSG_OFF message handled", Toast.LENGTH_SHORT).show();
-
-
+                case LED_OFF_REPLY:
+                    Toast.makeText(getApplicationContext(), "LED_OFF_REPLY message handled", Toast.LENGTH_SHORT).show();
                     break;
+
                 default:
                     super.handleMessage(msg);
             }
@@ -99,10 +99,10 @@ public class MainActivity extends Activity {
         ToggleButton tgl = (ToggleButton) v;
         int msgType;
 
-        if(tgl.)
-            msgType = HelloIOIOService.LED_OFF;
+        if(tgl.isChecked())
+            msgType = HelloIOIOService.LED_ON_REQUEST;
         else
-            msgType = HelloIOIOService.LED_ON;
+            msgType = HelloIOIOService.LED_OFF_REQUEST;
 
         Message msg = Message.obtain(null, msgType, 0, 0);
         msg.replyTo = new Messenger(new IncomingHandler());
