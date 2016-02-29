@@ -1,10 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
     }
 ]
