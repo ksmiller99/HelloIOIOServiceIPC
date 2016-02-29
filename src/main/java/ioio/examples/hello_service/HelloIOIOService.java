@@ -65,6 +65,7 @@ public class HelloIOIOService extends IOIOService {
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
+                    led_state = true;
                     break;
 
 
@@ -78,9 +79,9 @@ public class HelloIOIOService extends IOIOService {
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-
-
+                    led_state = false;
                     break;
+
                 default:
                     super.handleMessage(msg);
             }
@@ -99,12 +100,14 @@ public class HelloIOIOService extends IOIOService {
             }
 
             @Override
-            public void loop() throws ConnectionLostException,
-                    InterruptedException {
+            public void loop() throws ConnectionLostException, InterruptedException {
+
                 led_.write(false);
-                Thread.sleep(500);
-                led_.write(true);
-                Thread.sleep(500);
+                if (led_state) {
+                    Thread.sleep(500);
+                    led_.write(true);
+                    Thread.sleep(500);
+                }
             }
         };
     }
