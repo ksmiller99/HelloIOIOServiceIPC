@@ -58,13 +58,26 @@ public class HelloIOIOService extends IOIOService {
         public void handleMessage(Message msg) {
 
             Messenger rmsgr = msg.replyTo;
+            Message rmsg;
 
             switch (msg.what) {
                 case LED_ON:
                     Toast.makeText(getApplicationContext(), "LED_ON message handled", Toast.LENGTH_SHORT).show();
-                    //TODO: doublecheck coffee maker status
 
-                    Message rmsg = Message.obtain(null, 1, 0, 0);
+                    rmsg = Message.obtain(null,LED_OFF, 0, 0);
+                    Toast.makeText(getApplicationContext(), "Sending reply message", Toast.LENGTH_SHORT).show();
+                    try {
+                        rmsgr.send(rmsg);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+
+
+                case LED_OFF:
+                    Toast.makeText(getApplicationContext(), "LED_OFF message handled", Toast.LENGTH_SHORT).show();
+
+                    rmsg = Message.obtain(null, LED_ON, 0, 0);
                     Toast.makeText(getApplicationContext(), "Sending reply message", Toast.LENGTH_SHORT).show();
                     try {
                         rmsgr.send(rmsg);
@@ -128,22 +141,6 @@ public class HelloIOIOService extends IOIOService {
         }
         return result;
     }
-
-//	@Override
-//	public IBinder onBind(Intent arg0) {
-//		return null;
-//	}
-
-//    @Override
-//    public IBinder onBind(Intent intent) {
-//        Bundle extras = intent.getExtras();
-//        // Get messenger from the Activity
-//        if (extras != null) {
-//            outMessenger = (Messenger) extras.get("MESSENGER");
-//        }
-//        // Return our messenger to the Activity to get commands
-//        return inMessenger.getBinder();
-//    }
 
     public IBinder onBind(Intent intent) {
         Log.d("KSM", "CD_IOIOService.onBind");

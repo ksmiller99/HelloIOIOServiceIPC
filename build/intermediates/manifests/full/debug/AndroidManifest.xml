@@ -4,7 +4,7 @@
     android:versionCode="1"
     android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="7" />
+    <uses-sdk android:minSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -28,7 +28,9 @@
             android:name="com.android.future.usb.accessory"
             android:required="false" />
 
-        <service android:name="ioio.examples.hello_service.HelloIOIOService" />
+        <service
+            android:name="ioio.examples.hello_service.HelloIOIOService"
+            android:process=":remote" />
 
         <activity
             android:name="ioio.examples.hello_service.MainActivity"
