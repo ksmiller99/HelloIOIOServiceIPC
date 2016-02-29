@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_launcher.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\src\\main\\res\\drawable-ldpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ioio_down.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\src\\main\\res\\drawable-ldpi\\ioio_down.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ioio_down.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\drawable-ldpi\\ioio_down.png"
+    }
+]
