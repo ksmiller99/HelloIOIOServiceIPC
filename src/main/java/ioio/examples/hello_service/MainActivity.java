@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 
     @Override
     protected void onStop(){
-        unbindService(serviceConnection);
+        //unbindService(serviceConnection);
         messenger = null;
         isBound = false;
         super.onStop();
@@ -115,6 +115,11 @@ public class MainActivity extends Activity {
             e.printStackTrace();
         }
 
+    }
+
+    public void btnSecondOnClick(View v){
+        Intent intent = new Intent(this, SecondActivity.class);
+        startActivity(intent);
     }
 
 }

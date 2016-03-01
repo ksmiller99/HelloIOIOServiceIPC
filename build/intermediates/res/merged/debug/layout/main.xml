@@ -39,6 +39,14 @@
         android:textOn="Led is ON"
         android:onClick="tglOnCLick"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:onClick="btnSecondOnClick"
+        android:text="Second"/>
+
     <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/ioio_down"></ImageView>
 
 </LinearLayout>

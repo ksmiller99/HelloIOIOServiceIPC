@@ -65,6 +65,7 @@ public class HelloIOIOService extends IOIOService {
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
+                    led_state = true;
                     break;
 
 
@@ -78,7 +79,7 @@ public class HelloIOIOService extends IOIOService {
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-
+                    led_state = false;
 
                     break;
                 default:
@@ -99,12 +100,13 @@ public class HelloIOIOService extends IOIOService {
             }
 
             @Override
-            public void loop() throws ConnectionLostException,
-                    InterruptedException {
-                led_.write(false);
-                Thread.sleep(500);
+            public void loop() throws ConnectionLostException, InterruptedException {
                 led_.write(true);
-                Thread.sleep(500);
+                if(led_state) {
+                    Thread.sleep(500);
+                    led_.write(false);
+                    Thread.sleep(500);
+                }
             }
         };
     }
@@ -122,10 +124,10 @@ public class HelloIOIOService extends IOIOService {
         } else {
             // Service starting. Create a notification.
             Notification notification = new Notification(
-                    R.drawable.ic_launcher, "IOIO service running",
+                    R.drawable.ic_launcher, "IOIO IPC service running",
                     System.currentTimeMillis());
             notification
-                    .setLatestEventInfo(this, "IOIO Service", "Click to stop",
+                    .setLatestEventInfo(this, "IOIO IPC Service", "Click to stop",
                             PendingIntent.getService(this, 0, new Intent(
                                     "stop", null, this, this.getClass()), 0));
             notification.flags |= Notification.FLAG_ONGOING_EVENT;

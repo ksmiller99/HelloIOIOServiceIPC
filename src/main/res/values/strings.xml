@@ -4,5 +4,6 @@
     <string name="app_name">HelloIOIOService</string>
     <string name="seekbar_label">Move to control the position:</string>
     <string name="analog_label">Analog reading:</string>
+    <string name="second_activity_label">Second Activity</string>
 
 </resources>
