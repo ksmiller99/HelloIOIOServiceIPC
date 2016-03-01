@@ -1,3 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\Kevin\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.07\34f07b578c6819579415ddbfc6c418c6008f7ef2\IOIOLibCore-5.07.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="34f07b578c6819579415ddbfc6c418c6008f7ef2">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\IOIOLibCore-5.07_ad4b60ae5fc5ba5be0e3af6ffbf2ca9c98abd770.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.07_e2b06962d000df5708b3aaaa59bc08fdf14276d8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-19.1.0_5f8c9a61842da08e7dd69611c518080a821c77ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidBluetooth\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="86d0c1118daa9f0f67304864c4603d1c55092461">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidBluetooth-5.07_c137f42f5ee7bd44295953f946f0df792aced79f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\support-v4-19.1.0_9c1e6b4ef3a1b6e15d1f74091d838f5b2180e4bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidAccessory\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2e70120231d632313bd764c5ac45da1d87c6acd7">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidAccessory-5.07_a99478c82aea642fbabb4c0b41ae0e6ebfe417ea.jar" />
+    </item>
+    <item
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroidDevice\5.07\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9ad262bc3131b4f369d6c13240ec9cfac6278732">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.07_e1b7a090f9f37c013bcc1713bc114472bd695e74.jar" />
+    </item>
+
+</items>

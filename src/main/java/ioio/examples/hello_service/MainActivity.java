@@ -1,6 +1,7 @@
 package ioio.examples.hello_service;
 
 import android.app.Activity;
+import android.content.BroadcastReceiver;
 import android.content.ComponentName;
 import android.content.Context;
 import android.content.Intent;
@@ -44,6 +45,8 @@ public class MainActivity extends Activity {
 
             // Create the Messenger object
             messenger = new Messenger(service);
+
+            //TODO enable UI
         }
 
         @Override
@@ -53,6 +56,7 @@ public class MainActivity extends Activity {
             // unbind or process might have crashes
             messenger = null;
             isBound = false;
+            //TODO diable UI
         }
     };
 
@@ -60,12 +64,6 @@ public class MainActivity extends Activity {
     protected void onStart() {
         super.onStart();
         Toast.makeText(getApplicationContext(),"onStart Finished",Toast.LENGTH_SHORT).show();
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        Toast.makeText(getApplicationContext(),"onResume Finished",Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -121,5 +119,14 @@ public class MainActivity extends Activity {
         Intent intent = new Intent(this, SecondActivity.class);
         startActivity(intent);
     }
+
+    //to receive broadcasts from IOIO
+    public class MyReceiver extends BroadcastReceiver {
+        @Override
+        public void onReceive(Context context, Intent intent) {
+            Toast.makeText(context, "Intent Detected.", Toast.LENGTH_LONG).show();
+        }
+    }
+
 
 }

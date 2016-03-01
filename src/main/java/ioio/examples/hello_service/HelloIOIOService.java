@@ -10,6 +10,8 @@ import ioio.lib.util.android.IOIOService;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.BroadcastReceiver;
+import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
@@ -29,10 +31,16 @@ public class HelloIOIOService extends IOIOService {
     private static final String TAG = "IOIOService";
     final Messenger messenger = new Messenger(new IncomingHandler());
 
-    public static final int LED_ON_REQUEST = 1;
-    public static final int LED_OFF_REQUEST = 2;
-    public static final int LED_ON_REPLY = 3;
-    public static final int LED_OFF_REPLY = 4;
+
+    public static final int IOIO_STATUS_REQUEST = 0;    //request IOIO Status
+    public static final int IOIO_STATUS_REPLY   = 1;    //request IOIO Status
+    public static final int ERROR_REPLY         = 2;    //TODO determine error details
+    public static final int LED_ON_REQUEST      = 3;    //request turning on status LED
+    public static final int LED_OFF_REQUEST     = 4;    //request turning off status LED
+    public static final int LED_ON_REPLY        = 5;    //LED was turned on
+    public static final int LED_OFF_REPLY       = 6;    //LED was turned off
+    public static final int LED_STATUS_REQUEST  = 7;    //Status of LED request
+    public static final int LED_STATUS_REPLY    = 8;    //arg1 == 1 if true
 
     public static boolean led_state = false;
 
@@ -82,6 +90,21 @@ public class HelloIOIOService extends IOIOService {
                     led_state = false;
 
                     break;
+
+                case LED_STATUS_REQUEST:
+                    Toast.makeText(getApplicationContext(), "LED_STATUS_REQUEST message handled", Toast.LENGTH_SHORT).show();
+
+                    rmsg = Message.obtain(null, LED_STATUS_REPLY, led_state?1:0, 0);
+                    Toast.makeText(getApplicationContext(), "Sending reply message LED_OFF_REQUEST", Toast.LENGTH_SHORT).show();
+                    try {
+                        rmsgr.send(rmsg);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
+                    led_state = false;
+
+                    break;
+
                 default:
                     super.handleMessage(msg);
             }
@@ -97,6 +120,9 @@ public class HelloIOIOService extends IOIOService {
             protected void setup() throws ConnectionLostException,
                     InterruptedException {
                 led_ = ioio_.openDigitalOutput(IOIO.LED_PIN);
+                Intent intent = new Intent();
+                intent.setAction("com.examples.hello_service.IOIO_CONNECTED");
+                sendBroadcast(intent);
             }
 
             @Override
@@ -108,6 +134,14 @@ public class HelloIOIOService extends IOIOService {
                     Thread.sleep(500);
                 }
             }
+
+            @Override
+            public void disconnected() {
+                Intent intent = new Intent();
+                intent.setAction("com.examples.hello_service.IOIO_DISCONNECTED");
+                sendBroadcast(intent);
+            }
+
         };
     }
 
@@ -148,4 +182,5 @@ public class HelloIOIOService extends IOIOService {
         Toast.makeText(getApplicationContext(),"Service.onStart Finished",Toast.LENGTH_SHORT).show();
 
     }
+
 }

@@ -37,6 +37,17 @@
                 <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
             </intent-filter>
 
+            <intent-filter>
+                <action android:name="com.examples.hello_service.IOIO_DISCONNECTED">
+                </action>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="com.examples.hello_service.IOIO_CONNECTED">
+                </action>
+            </intent-filter>
+
+
             <meta-data
                 android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
                 android:resource="@xml/accessory_filter" />
