@@ -11,15 +11,18 @@ import android.os.IBinder;
 import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
+import android.view.View;
 import android.widget.Toast;
+import android.widget.ToggleButton;
 
 public class MainActivity extends Activity {
     boolean isBound = false;
-    Messenger mMessenger;
+    Messenger messenger = null;
 
-    public static final int REPLY_MSG = 1;
-
-    final Messenger rMessenger = new Messenger(new IncomingHandler());
+    public static final int LED_ON_REQUEST = 1;
+    public static final int LED_OFF_REQUEST = 2;
+    public static final int LED_ON_REPLY = 3;
+    public static final int LED_OFF_REPLY = 4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,33 +36,14 @@ public class MainActivity extends Activity {
     }
 
     private ServiceConnection serviceConnection = new ServiceConnection() {
+
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {
             Toast.makeText(getApplicationContext(),"onServiceConnection Started",Toast.LENGTH_SHORT).show();
             isBound = true;
 
             // Create the Messenger object
-            mMessenger = new Messenger(service);
-
-            // Create a Message
-            // Note the usage of MSG_SAY_HELLO as the what value
-            Message msg = Message.obtain(null, HelloIOIOService.LED_ON, 0, 0);
-            msg.replyTo = rMessenger;
-
-
-            // Create a bundle with the data
-            Bundle bundle = new Bundle();
-            bundle.putString("hello", "world");
-
-            // Set the bundle data to the Message
-            msg.setData(bundle);
-
-            // Send the Message to the Service (in another process)
-            try {
-                mMessenger.send(msg);
-            } catch (RemoteException e) {
-                e.printStackTrace();
-            }
+            messenger = new Messenger(service);
         }
 
         @Override
@@ -67,7 +51,7 @@ public class MainActivity extends Activity {
             Toast.makeText(getApplicationContext(),"onServiceConnection Started",Toast.LENGTH_SHORT).show();
 
             // unbind or process might have crashes
-            mMessenger = null;
+            messenger = null;
             isBound = false;
         }
     };
@@ -84,20 +68,53 @@ public class MainActivity extends Activity {
         Toast.makeText(getApplicationContext(),"onResume Finished",Toast.LENGTH_SHORT).show();
     }
 
+    @Override
+    protected void onStop(){
+        unbindService(serviceConnection);
+        messenger = null;
+        isBound = false;
+        super.onStop();
+    }
+
     class IncomingHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
 
             switch (msg.what) {
-                case REPLY_MSG:
-                    Toast.makeText(getApplicationContext(), "REPLY_MSG message handled", Toast.LENGTH_SHORT).show();
-
-
+                case LED_ON_REPLY:
+                    Toast.makeText(getApplicationContext(), "LED_ON_REPLY message handled", Toast.LENGTH_SHORT).show();
                     break;
+
+                case LED_OFF_REPLY:
+                    Toast.makeText(getApplicationContext(), "LED_OFF_REPLY message handled", Toast.LENGTH_SHORT).show();
+                    break;
+
                 default:
                     super.handleMessage(msg);
             }
         }
+    }
+
+    public void tglOnCLick(View v){
+        ToggleButton tgl = (ToggleButton) v;
+        int msgType;
+
+        if(tgl.isChecked())
+            msgType = HelloIOIOService.LED_ON_REQUEST;
+        else
+            msgType = HelloIOIOService.LED_OFF_REQUEST;
+
+        Message msg = Message.obtain(null, msgType, 0, 0);
+        msg.replyTo = new Messenger(new IncomingHandler());
+
+        Toast.makeText(getApplicationContext(),"Toggle Message "+msgType+" sending...",Toast.LENGTH_SHORT).show();
+
+        try {
+            messenger.send(msg);
+        } catch (RemoteException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOService\\src\\main\\res\\layout\\main.xml"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\layout\\main.xml"
     }

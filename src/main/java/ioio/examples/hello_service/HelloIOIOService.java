@@ -11,7 +11,6 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Intent;
-import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
@@ -28,17 +27,14 @@ import android.widget.Toast;
 public class HelloIOIOService extends IOIOService {
 
     private static final String TAG = "IOIOService";
+    final Messenger messenger = new Messenger(new IncomingHandler());
 
-    // Used to receive messages from the Activity
-    final Messenger inMessenger = new Messenger(new IncomingHandler());
-    // Use to send message to the Activity
-    private Messenger outMessenger;
+    public static final int LED_ON_REQUEST = 1;
+    public static final int LED_OFF_REQUEST = 2;
+    public static final int LED_ON_REPLY = 3;
+    public static final int LED_OFF_REPLY = 4;
 
-
-    public static final int LED_ON = 1;
-    public static final int LED_OFF = 2;
-
-    public static int led_state = LED_ON;
+    public static boolean led_state = false;
 
     private boolean led_changed = true;
 
@@ -48,8 +44,6 @@ public class HelloIOIOService extends IOIOService {
     public void onCreate() {
         super.onCreate();
         Toast.makeText(getApplicationContext(),"Service.onCreate Finished",Toast.LENGTH_SHORT).show();
-
-
     }
 
 
@@ -58,14 +52,27 @@ public class HelloIOIOService extends IOIOService {
         public void handleMessage(Message msg) {
 
             Messenger rmsgr = msg.replyTo;
+            Message rmsg;
 
             switch (msg.what) {
-                case LED_ON:
-                    Toast.makeText(getApplicationContext(), "LED_ON message handled", Toast.LENGTH_SHORT).show();
-                    //TODO: doublecheck coffee maker status
+                case LED_ON_REQUEST:
+                    Toast.makeText(getApplicationContext(), "LED_ON_REQUEST message handled", Toast.LENGTH_SHORT).show();
 
-                    Message rmsg = Message.obtain(null, 1, 0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending reply message", Toast.LENGTH_SHORT).show();
+                    rmsg = Message.obtain(null,LED_ON_REPLY, 0, 0);
+                    Toast.makeText(getApplicationContext(), "Sending reply message LED_ON_REPLY ", Toast.LENGTH_SHORT).show();
+                    try {
+                        rmsgr.send(rmsg);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
+                    break;
+
+
+                case LED_OFF_REQUEST:
+                    Toast.makeText(getApplicationContext(), "LED_OFF message handled", Toast.LENGTH_SHORT).show();
+
+                    rmsg = Message.obtain(null, LED_OFF_REPLY, 0, 0);
+                    Toast.makeText(getApplicationContext(), "Sending reply message LED_OFF_REQUEST", Toast.LENGTH_SHORT).show();
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
@@ -79,8 +86,6 @@ public class HelloIOIOService extends IOIOService {
             }
         }
     }
-
-    final Messenger mMessenger = new Messenger(new IncomingHandler());
 
     @Override
     protected IOIOLooper createIOIOLooper() {
@@ -129,26 +134,10 @@ public class HelloIOIOService extends IOIOService {
         return result;
     }
 
-//	@Override
-//	public IBinder onBind(Intent arg0) {
-//		return null;
-//	}
-
-//    @Override
-//    public IBinder onBind(Intent intent) {
-//        Bundle extras = intent.getExtras();
-//        // Get messenger from the Activity
-//        if (extras != null) {
-//            outMessenger = (Messenger) extras.get("MESSENGER");
-//        }
-//        // Return our messenger to the Activity to get commands
-//        return inMessenger.getBinder();
-//    }
-
     public IBinder onBind(Intent intent) {
         Log.d("KSM", "CD_IOIOService.onBind");
         Toast.makeText(getApplicationContext(), "binding", Toast.LENGTH_LONG).show();
-        return mMessenger.getBinder();
+        return messenger.getBinder();
     }
 
     @Override

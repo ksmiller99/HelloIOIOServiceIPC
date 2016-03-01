@@ -2,12 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 	package="ioio.examples.hello_service" android:versionCode="1"
 	android:versionName="1.0">
-	<uses-sdk android:minSdkVersion="7" />
+	<uses-sdk android:minSdkVersion="19" />
 	<application android:icon="@drawable/ic_launcher"
 		android:label="@string/app_name">
 		<uses-library android:name="com.android.future.usb.accessory"
 			android:required="false" />
-		<service android:name="HelloIOIOService" />
+		<service android:name="HelloIOIOService" android:process=":remote" />
 		<activity android:label="@string/app_name" android:name="MainActivity"
 			android:launchMode="singleTask">
 			<intent-filter>
