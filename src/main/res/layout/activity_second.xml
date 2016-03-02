@@ -22,8 +22,8 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="20px"
         android:textOff="Led is OFF"
-        android:textOn="Led is ON"
-        android:onClick="tglOnCLick"
+        android:textOn="Led is Blinking"
+        android:onClick="tglOnClick"
         />
 
     <Button

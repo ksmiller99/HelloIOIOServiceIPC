@@ -2,32 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/seekbar_label"
-        />
-
-    <SeekBar
-        android:id="@+id/SeekBar"
-        android:layout_height="wrap_content"
-        android:layout_width="fill_parent"
-        android:max="1000"
-        android:progress="500"
-        />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:paddingRight="5px"
-        android:text="@string/analog_label" />
-
-    <TextView
-        android:id="@+id/TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="0.00"
-        android:textSize="72sp" />
 
     <ToggleButton
         android:id="@+id/ToggleButton"
@@ -37,7 +11,7 @@
         android:layout_margin="20px"
         android:textOff="Led is OFF"
         android:textOn="Led is BLINKING"
-        android:onClick="tglOnCLick"
+        android:onClick="tglOnClick"
         />
 
     <Button

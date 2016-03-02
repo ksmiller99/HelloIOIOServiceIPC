@@ -236,8 +236,6 @@ int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ic_launcher 0x7f020057
 int drawable ioio_down 0x7f020058
-int id SeekBar 0x7f0c003d
-int id TextView 0x7f0c003e
 int id ToggleButton 0x7f0c003c
 int id action_bar 0x7f0c001c
 int id action_bar_activity_content 0x7f0c0000
@@ -268,7 +266,7 @@ int id homeAsUp 0x7f0c000a
 int id icon 0x7f0c002a
 int id ifRoom 0x7f0c0015
 int id image 0x7f0c0027
-int id imageView1 0x7f0c003f
+int id imageView1 0x7f0c003d
 int id listMode 0x7f0c0006
 int id list_item 0x7f0c0029
 int id middle 0x7f0c0011

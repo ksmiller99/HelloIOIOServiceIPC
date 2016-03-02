@@ -1,13 +1,5 @@
 package ioio.examples.hello_service_ipc;
 
-import ioio.examples.hello_service_ipc.R;
-import ioio.lib.api.DigitalOutput;
-import ioio.lib.api.IOIO;
-import ioio.lib.api.exception.ConnectionLostException;
-import ioio.lib.util.BaseIOIOLooper;
-import ioio.lib.util.IOIOLooper;
-import ioio.lib.util.android.IOIOService;
-
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -18,16 +10,16 @@ import android.os.Message;
 import android.os.Messenger;
 import android.os.RemoteException;
 import android.util.Log;
-import android.widget.Toast;
 
-/**
- * An example IOIO service. While this service is alive, it will attempt to
- * connect to a IOIO and blink the LED. A notification will appear on the
- * notification bar, enabling the user to stop the service.
- */
+import ioio.lib.api.DigitalOutput;
+import ioio.lib.api.IOIO;
+import ioio.lib.api.exception.ConnectionLostException;
+import ioio.lib.util.BaseIOIOLooper;
+import ioio.lib.util.IOIOLooper;
+import ioio.lib.util.android.IOIOService;
+
 public class HelloIOIOService extends IOIOService {
 
-    private static final String TAG = "IOIOService";
     final Messenger messenger = new Messenger(new IncomingHandler());
 
 
@@ -44,23 +36,21 @@ public class HelloIOIOService extends IOIOService {
     public static boolean led_state = false;
     public static boolean ioio_state = false;
 
-    private boolean led_changed = true;
-
-    private Handler handler;
-
+    //declare Intents for broadcast messages
     Intent setupIntent;
     Intent disconnectedIntent;
 
     @Override
     public void onCreate() {
-        super.onCreate();
+
+        //create Intents for broadcast messages
         setupIntent = new Intent();
-        setupIntent.setAction("com.examples.hello_service_ipc.IOIO_CONNECTED");
+        setupIntent.setAction("IOIO_CONNECTED");
 
         disconnectedIntent = new Intent();
-        disconnectedIntent.setAction("com.examples.hello_service_ipc.IOIO_DISCONNECTED");
+        disconnectedIntent.setAction("IOIO_DISCONNECTED");
 
-        Toast.makeText(getApplicationContext(),"Service.onCreate Finished",Toast.LENGTH_SHORT).show();
+        super.onCreate();
     }
 
 
@@ -73,10 +63,10 @@ public class HelloIOIOService extends IOIOService {
 
             switch (msg.what) {
                 case LED_ON_REQUEST:
-                    Toast.makeText(getApplicationContext(), "LED_ON_REQUEST message handled", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "LED_ON_REQUEST message handled");
 
                     rmsg = Message.obtain(null,LED_ON_REPLY, 0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending reply message LED_ON_REPLY ", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "Sending reply message LED_ON_REPLY ");
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
@@ -87,10 +77,10 @@ public class HelloIOIOService extends IOIOService {
 
 
                 case LED_OFF_REQUEST:
-                    Toast.makeText(getApplicationContext(), "LED_OFF message handled", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM","LED_OFF message handled");
 
                     rmsg = Message.obtain(null, LED_OFF_REPLY, 0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending reply message LED_OFF_REQUEST", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "Sending reply message LED_OFF_REQUEST");
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
@@ -101,30 +91,28 @@ public class HelloIOIOService extends IOIOService {
                     break;
 
                 case LED_STATUS_REQUEST:
-                    Toast.makeText(getApplicationContext(), "LED_STATUS_REQUEST message handled", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "LED_STATUS_REQUEST message handled");
 
                     rmsg = Message.obtain(null, LED_STATUS_REPLY, led_state?1:0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending LED_STATUS_REPLY", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "Sending LED_STATUS_REPLY");
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-                    led_state = false;
 
                     break;
 
                 case IOIO_STATUS_REQUEST:
-                    Toast.makeText(getApplicationContext(), "IOIO_STATUS_REQUEST message handled", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "IOIO_STATUS_REQUEST message handled");
 
                     rmsg = Message.obtain(null, IOIO_STATUS_REPLY, ioio_state?1:0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending reply message IOIO_STATUS_REPLY", Toast.LENGTH_SHORT).show();
+                    Log.d("KSM", "Sending reply message IOIO_STATUS_REPLY");
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-                    led_state = false;
 
                     break;
 
@@ -132,10 +120,6 @@ public class HelloIOIOService extends IOIOService {
                     super.handleMessage(msg);
             }
         }
-    }
-
-    private void toastMe(String s){
-        Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -197,16 +181,8 @@ public class HelloIOIOService extends IOIOService {
     }
 
     public IBinder onBind(Intent intent) {
-        Log.d("KSM", "CD_IOIOService.onBind");
-        Toast.makeText(getApplicationContext(), "binding", Toast.LENGTH_LONG).show();
+        Log.d("KSM", "Service.onBind");
         return messenger.getBinder();
-    }
-
-    @Override
-    public void onStart(Intent intent, int startId) {
-        super.onStart(intent, startId);
-        Toast.makeText(getApplicationContext(),"Service.onStart Finished",Toast.LENGTH_SHORT).show();
-
     }
 
 }
