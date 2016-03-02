@@ -132,7 +132,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="analog_label">Analog reading:</string>
-    <string name="app_name">HelloIOIOService</string>
+    <string name="app_name">HelloIOIO Service IPC</string>
     <string name="hello">Hello World!</string>
     <string name="second_activity_label">Second Activity</string>
     <string name="seekbar_label">Move to control the position:</string>

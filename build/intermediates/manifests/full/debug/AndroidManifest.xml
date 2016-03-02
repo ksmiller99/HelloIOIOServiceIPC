@@ -6,10 +6,9 @@
 
     <uses-sdk android:minSdkVersion="19" />
 
-    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
 
@@ -45,6 +44,14 @@
             </intent-filter>
             <intent-filter>
                 <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.examples.hello_service.IOIO_DISCONNECTED" >
+                </action>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.examples.hello_service.IOIO_CONNECTED" >
+                </action>
             </intent-filter>
 
             <meta-data

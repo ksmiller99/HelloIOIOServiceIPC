@@ -43,6 +43,7 @@ public class HelloIOIOService extends IOIOService {
     public static final int LED_STATUS_REPLY    = 8;    //arg1 == 1 if true
 
     public static boolean led_state = false;
+    public static boolean ioio_state = false;
 
     private boolean led_changed = true;
 
@@ -95,7 +96,21 @@ public class HelloIOIOService extends IOIOService {
                     Toast.makeText(getApplicationContext(), "LED_STATUS_REQUEST message handled", Toast.LENGTH_SHORT).show();
 
                     rmsg = Message.obtain(null, LED_STATUS_REPLY, led_state?1:0, 0);
-                    Toast.makeText(getApplicationContext(), "Sending reply message LED_OFF_REQUEST", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Sending LED_STATUS_REPLY", Toast.LENGTH_SHORT).show();
+                    try {
+                        rmsgr.send(rmsg);
+                    } catch (RemoteException e) {
+                        e.printStackTrace();
+                    }
+                    led_state = false;
+
+                    break;
+
+                case IOIO_STATUS_REQUEST:
+                    Toast.makeText(getApplicationContext(), "IOIO_STATUS_REQUEST message handled", Toast.LENGTH_SHORT).show();
+
+                    rmsg = Message.obtain(null, IOIO_STATUS_REPLY, ioio_state?1:0, 0);
+                    Toast.makeText(getApplicationContext(), "Sending reply message IOIO_STATUS_REPLY", Toast.LENGTH_SHORT).show();
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
@@ -111,6 +126,10 @@ public class HelloIOIOService extends IOIOService {
         }
     }
 
+    private void toastMe(String s){
+        Toast.makeText(getApplicationContext(), s, Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     protected IOIOLooper createIOIOLooper() {
         return new BaseIOIOLooper() {
@@ -119,6 +138,9 @@ public class HelloIOIOService extends IOIOService {
             @Override
             protected void setup() throws ConnectionLostException,
                     InterruptedException {
+                toastMe("IOIO setup");
+                Log.d("KSM", "IOIO setup");
+                ioio_state = true;
                 led_ = ioio_.openDigitalOutput(IOIO.LED_PIN);
                 Intent intent = new Intent();
                 intent.setAction("com.examples.hello_service.IOIO_CONNECTED");
@@ -137,6 +159,8 @@ public class HelloIOIOService extends IOIOService {
 
             @Override
             public void disconnected() {
+                Log.d("KSM","IOIO Disconnect");
+                ioio_state = false;
                 Intent intent = new Intent();
                 intent.setAction("com.examples.hello_service.IOIO_DISCONNECTED");
                 sendBroadcast(intent);

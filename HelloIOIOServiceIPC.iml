@@ -87,12 +87,12 @@
     </content>
     <orderEntry type="jdk" jdkName="Android API 19 Platform" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" name="IOIOLibAndroidAccessory-5.07" level="project" />
-    <orderEntry type="library" exported="" name="support-v4-19.1.0" level="project" />
+    <orderEntry type="library" exported="" name="appcompat-v7-19.1.0" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibCore-5.07" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroid-5.07" level="project" />
+    <orderEntry type="library" exported="" name="support-v4-19.1.0" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidDevice-5.07" level="project" />
-    <orderEntry type="library" exported="" name="appcompat-v7-19.1.0" level="project" />
+    <orderEntry type="library" exported="" name="IOIOLibAndroidAccessory-5.07" level="project" />
     <orderEntry type="library" exported="" name="IOIOLibAndroidBluetooth-5.07" level="project" />
   </component>
 </module>
