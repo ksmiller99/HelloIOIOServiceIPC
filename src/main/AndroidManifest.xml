@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="ioio.examples.hello_service"
+    package="ioio.examples.hello_service_ipc"
     android:versionCode="1"
     android:versionName="1.0">
 
@@ -18,11 +18,11 @@
             android:required="false" />
 
         <service
-            android:name=".HelloIOIOService"
+            android:name="ioio.examples.hello_service_ipc.HelloIOIOService"
             android:process=":remote" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="ioio.examples.hello_service_ipc.MainActivity"
             android:label="@string/app_name"
             android:launchMode="singleTask">
             <intent-filter>
@@ -38,12 +38,12 @@
             </intent-filter>
 
             <intent-filter>
-                <action android:name="com.examples.hello_service.IOIO_DISCONNECTED">
+                <action android:name="com.examples.hello_service_ipc.IOIO_DISCONNECTED">
                 </action>
             </intent-filter>
 
             <intent-filter>
-                <action android:name="com.examples.hello_service.IOIO_CONNECTED">
+                <action android:name="com.examples.hello_service_ipc.IOIO_CONNECTED">
                 </action>
             </intent-filter>
 
@@ -55,7 +55,7 @@
                 android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
                 android:resource="@xml/device_filter" />
         </activity>
-        <activity android:name=".SecondActivity"></activity>
+        <activity android:name="ioio.examples.hello_service_ipc.SecondActivity"></activity>
     </application>
 
 </manifest>

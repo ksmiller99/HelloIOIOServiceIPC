@@ -1,5 +1,6 @@
-package ioio.examples.hello_service;
+package ioio.examples.hello_service_ipc;
 
+import ioio.examples.hello_service_ipc.R;
 import ioio.lib.api.DigitalOutput;
 import ioio.lib.api.IOIO;
 import ioio.lib.api.exception.ConnectionLostException;
@@ -10,8 +11,6 @@ import ioio.lib.util.android.IOIOService;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.BroadcastReceiver;
-import android.content.Context;
 import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
@@ -49,9 +48,18 @@ public class HelloIOIOService extends IOIOService {
 
     private Handler handler;
 
+    Intent setupIntent;
+    Intent disconnectedIntent;
+
     @Override
     public void onCreate() {
         super.onCreate();
+        setupIntent = new Intent();
+        setupIntent.setAction("com.examples.hello_service_ipc.IOIO_CONNECTED");
+
+        disconnectedIntent = new Intent();
+        disconnectedIntent.setAction("com.examples.hello_service_ipc.IOIO_DISCONNECTED");
+
         Toast.makeText(getApplicationContext(),"Service.onCreate Finished",Toast.LENGTH_SHORT).show();
     }
 
@@ -138,13 +146,9 @@ public class HelloIOIOService extends IOIOService {
             @Override
             protected void setup() throws ConnectionLostException,
                     InterruptedException {
-                toastMe("IOIO setup");
-                Log.d("KSM", "IOIO setup");
                 ioio_state = true;
                 led_ = ioio_.openDigitalOutput(IOIO.LED_PIN);
-                Intent intent = new Intent();
-                intent.setAction("com.examples.hello_service.IOIO_CONNECTED");
-                sendBroadcast(intent);
+                sendBroadcast(setupIntent);
             }
 
             @Override
@@ -161,9 +165,7 @@ public class HelloIOIOService extends IOIOService {
             public void disconnected() {
                 Log.d("KSM","IOIO Disconnect");
                 ioio_state = false;
-                Intent intent = new Intent();
-                intent.setAction("com.examples.hello_service.IOIO_DISCONNECTED");
-                sendBroadcast(intent);
+                sendBroadcast(disconnectedIntent);
             }
 
         };

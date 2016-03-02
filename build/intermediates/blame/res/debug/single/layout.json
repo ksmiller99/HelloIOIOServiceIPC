@@ -28,12 +28,12 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_include.xml",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_home.xml"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor_overlay.xml",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_decor_overlay.xml"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_home.xml",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\layout\\abc_action_bar_home.xml"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_decor.xml",

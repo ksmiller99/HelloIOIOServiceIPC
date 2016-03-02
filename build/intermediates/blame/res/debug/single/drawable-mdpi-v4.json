@@ -52,12 +52,12 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_list_pressed_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_holo_light.png",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_voice_search_api_holo_light.png"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_menu_share_holo_dark.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_menu_share_holo_dark.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_voice_search_api_holo_light.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_voice_search_api_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_spinner_ab_focused_holo_light.9.png",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_textfield_search_default_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_bottom_solid_dark_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_pressed_holo_dark.9.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_dark_holo.9.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_bottom_solid_dark_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_dark.9.png",
@@ -192,16 +192,16 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_share_pack_holo_light.9.png"
     },
     {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_light.9.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_cab_background_top_holo_light.9.png"
+    },
+    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_commit_search_api_holo_light.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_commit_search_api_holo_light.png"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_divider_holo_dark.9.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_list_divider_holo_dark.9.png"
-    },
-    {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_holo_light.9.png",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_cab_background_top_holo_light.9.png"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_solid_light_holo.9.png",
@@ -252,12 +252,12 @@
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ic_clear_disabled.png"
     },
     {
-        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
-        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_textfield_search_selected_holo_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_bottom_solid_light_holo.9.png",
         "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_ab_bottom_solid_light_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_search_selected_holo_dark.9.png",
+        "source": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\drawable-mdpi\\abc_textfield_search_selected_holo_dark.9.png"
     },
     {
         "merged": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_menu_dropdown_panel_holo_light.9.png",
