@@ -21,6 +21,9 @@
         android:onClick="btnSecondOnClick"
         android:text="Second Activity"/>
 
-    <ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:layout_width="wrap_content" android:src="@drawable/ioio_down"></ImageView>
+    <ImageView android:layout_height="wrap_content"
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:src="@drawable/ioio_down"/>
 
 </LinearLayout>

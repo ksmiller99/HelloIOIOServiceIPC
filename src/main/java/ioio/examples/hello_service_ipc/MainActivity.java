@@ -169,6 +169,10 @@ public class MainActivity extends Activity {
                     Log.d("KSM", "IOIO_STATUS_REPLY: " + msg.arg1 + " message handled");
                     break;
 
+                case HelloIOIOService.ERROR_REPLY:
+                    Log.d("KSM", "ERROR_REPLY to message type: " + msg.arg1 + " message handled");
+                    break;
+
                 default:
                     Log.d("KSM", "UNKNOWN MESSAGE TYPE: " + msg.what);
                     super.handleMessage(msg);

@@ -1,6 +1,8 @@
 -- Merging decision tree log ---
 manifest
 ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:2:1-52:12
+	xmlns:android
+		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:2:11-69
 	package
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:3:5-46
 	android:versionName
@@ -11,8 +13,6 @@ ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\And
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:4:5-28
 		INJECTED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml
-	xmlns:android
-		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:7:5-44
 MERGED from [com.android.support:appcompat-v7:19.1.0] C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\AndroidManifest.xml:18:5-42
@@ -53,10 +53,10 @@ activity#ioio.examples.hello_service_ipc.MainActivity
 ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:24:9-47:20
 	android:label
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:26:13-45
-	android:launchMode
-		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:27:13-44
 	android:name
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:25:13-72
+	android:launchMode
+		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:27:13-44
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:28:13-32:29
 action#android.intent.action.MAIN
@@ -92,7 +92,7 @@ ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\And
 	android:name
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:44:17-79
 activity#ioio.examples.hello_service_ipc.SecondActivity
-ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:49:12-95
+ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:49:12-85
 	android:name
 		ADDED from C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\src\main\AndroidManifest.xml:49:22-83
 uses-permission#android.permission.INTERNET

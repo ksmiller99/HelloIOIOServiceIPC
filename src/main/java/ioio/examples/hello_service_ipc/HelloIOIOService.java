@@ -65,28 +65,41 @@ public class HelloIOIOService extends IOIOService {
                 case LED_ON_REQUEST:
                     Log.d("KSM", "LED_ON_REQUEST message handled");
 
-                    rmsg = Message.obtain(null,LED_ON_REPLY, 0, 0);
-                    Log.d("KSM", "Sending reply message LED_ON_REPLY ");
+                    if (!ioio_state){
+                        rmsg = Message.obtain(null, ERROR_REPLY, msg.what, 0);
+                        Log.d("KSM", "Sending reply message ERROR_REPLY ");
+                    }else {
+                        rmsg = Message.obtain(null, LED_ON_REPLY, 0, 0);
+                        Log.d("KSM", "Sending reply message LED_ON_REPLY ");
+                        led_state = true;
+                    }
+
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-                    led_state = true;
+
                     break;
 
 
                 case LED_OFF_REQUEST:
                     Log.d("KSM","LED_OFF message handled");
 
-                    rmsg = Message.obtain(null, LED_OFF_REPLY, 0, 0);
-                    Log.d("KSM", "Sending reply message LED_OFF_REQUEST");
+                    if (!ioio_state){
+                        rmsg = Message.obtain(null, ERROR_REPLY, msg.what, 0);
+                        Log.d("KSM", "Sending reply message ERROR_REPLY ");
+                    }else {
+                        rmsg = Message.obtain(null, LED_OFF_REPLY, 0, 0);
+                        Log.d("KSM", "Sending reply message LED_OFF_REQUEST");
+                        led_state = false;
+                    }
+
                     try {
                         rmsgr.send(rmsg);
                     } catch (RemoteException e) {
                         e.printStackTrace();
                     }
-                    led_state = false;
 
                     break;
 
