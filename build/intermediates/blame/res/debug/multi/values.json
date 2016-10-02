@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "outputFile": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -1372,11 +1372,11 @@
             },
             {
                 "to": {
-                    "startLine": 90,
+                    "startLine": 128,
                     "startColumn": 4,
-                    "startOffset": 10061,
+                    "startOffset": 10499,
                     "endColumn": 61,
-                    "endOffset": 10118
+                    "endOffset": 10556
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1391,11 +1391,11 @@
             },
             {
                 "to": {
-                    "startLine": 91,
+                    "startLine": 129,
                     "startColumn": 4,
-                    "startOffset": 10123,
+                    "startOffset": 10561,
                     "endColumn": 67,
-                    "endOffset": 10186
+                    "endOffset": 10624
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1410,11 +1410,11 @@
             },
             {
                 "to": {
-                    "startLine": 92,
+                    "startLine": 130,
                     "startColumn": 4,
-                    "startOffset": 10191,
+                    "startOffset": 10629,
                     "endColumn": 63,
-                    "endOffset": 10250
+                    "endOffset": 10688
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1429,11 +1429,11 @@
             },
             {
                 "to": {
-                    "startLine": 93,
+                    "startLine": 131,
                     "startColumn": 4,
-                    "startOffset": 10255,
+                    "startOffset": 10693,
                     "endColumn": 64,
-                    "endOffset": 10315
+                    "endOffset": 10753
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1448,11 +1448,11 @@
             },
             {
                 "to": {
-                    "startLine": 94,
+                    "startLine": 132,
                     "startColumn": 4,
-                    "startOffset": 10320,
+                    "startOffset": 10758,
                     "endColumn": 68,
-                    "endOffset": 10384
+                    "endOffset": 10822
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1467,11 +1467,11 @@
             },
             {
                 "to": {
-                    "startLine": 95,
+                    "startLine": 133,
                     "startColumn": 4,
-                    "startOffset": 10389,
+                    "startOffset": 10827,
                     "endColumn": 68,
-                    "endOffset": 10453
+                    "endOffset": 10891
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1486,11 +1486,11 @@
             },
             {
                 "to": {
-                    "startLine": 96,
+                    "startLine": 134,
                     "startColumn": 4,
-                    "startOffset": 10458,
+                    "startOffset": 10896,
                     "endColumn": 64,
-                    "endOffset": 10518
+                    "endOffset": 10956
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1505,11 +1505,11 @@
             },
             {
                 "to": {
-                    "startLine": 97,
+                    "startLine": 135,
                     "startColumn": 4,
-                    "startOffset": 10523,
+                    "startOffset": 10961,
                     "endColumn": 65,
-                    "endOffset": 10584
+                    "endOffset": 11022
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1524,11 +1524,11 @@
             },
             {
                 "to": {
-                    "startLine": 98,
+                    "startLine": 136,
                     "startColumn": 4,
-                    "startOffset": 10589,
+                    "startOffset": 11027,
                     "endColumn": 61,
-                    "endOffset": 10646
+                    "endOffset": 11084
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1543,11 +1543,11 @@
             },
             {
                 "to": {
-                    "startLine": 99,
+                    "startLine": 137,
                     "startColumn": 4,
-                    "startOffset": 10651,
+                    "startOffset": 11089,
                     "endColumn": 59,
-                    "endOffset": 10706
+                    "endOffset": 11144
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1562,11 +1562,11 @@
             },
             {
                 "to": {
-                    "startLine": 100,
+                    "startLine": 138,
                     "startColumn": 4,
-                    "startOffset": 10711,
+                    "startOffset": 11149,
                     "endColumn": 58,
-                    "endOffset": 10765
+                    "endOffset": 11203
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1581,11 +1581,11 @@
             },
             {
                 "to": {
-                    "startLine": 101,
+                    "startLine": 139,
                     "startColumn": 4,
-                    "startOffset": 10770,
+                    "startOffset": 11208,
                     "endColumn": 59,
-                    "endOffset": 10825
+                    "endOffset": 11263
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1600,11 +1600,11 @@
             },
             {
                 "to": {
-                    "startLine": 102,
+                    "startLine": 140,
                     "startColumn": 4,
-                    "startOffset": 10830,
+                    "startOffset": 11268,
                     "endColumn": 65,
-                    "endOffset": 10891
+                    "endOffset": 11329
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1619,11 +1619,11 @@
             },
             {
                 "to": {
-                    "startLine": 103,
+                    "startLine": 141,
                     "startColumn": 4,
-                    "startOffset": 10896,
+                    "startOffset": 11334,
                     "endColumn": 66,
-                    "endOffset": 10958
+                    "endOffset": 11396
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1638,11 +1638,11 @@
             },
             {
                 "to": {
-                    "startLine": 104,
+                    "startLine": 142,
                     "startColumn": 4,
-                    "startOffset": 10963,
+                    "startOffset": 11401,
                     "endColumn": 57,
-                    "endOffset": 11016
+                    "endOffset": 11454
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1657,11 +1657,11 @@
             },
             {
                 "to": {
-                    "startLine": 105,
+                    "startLine": 143,
                     "startColumn": 4,
-                    "startOffset": 11021,
+                    "startOffset": 11459,
                     "endColumn": 64,
-                    "endOffset": 11081
+                    "endOffset": 11519
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1676,11 +1676,11 @@
             },
             {
                 "to": {
-                    "startLine": 106,
+                    "startLine": 144,
                     "startColumn": 4,
-                    "startOffset": 11086,
+                    "startOffset": 11524,
                     "endColumn": 63,
-                    "endOffset": 11145
+                    "endOffset": 11583
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1695,11 +1695,11 @@
             },
             {
                 "to": {
-                    "startLine": 107,
+                    "startLine": 145,
                     "startColumn": 4,
-                    "startOffset": 11150,
+                    "startOffset": 11588,
                     "endColumn": 57,
-                    "endOffset": 11203
+                    "endOffset": 11641
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\dimens.xml",
@@ -1714,11 +1714,11 @@
             },
             {
                 "to": {
-                    "startLine": 108,
+                    "startLine": 146,
                     "startColumn": 4,
-                    "startOffset": 11208,
+                    "startOffset": 11646,
                     "endColumn": 55,
-                    "endOffset": 11259
+                    "endOffset": 11697
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\dimens.xml",
@@ -1733,11 +1733,11 @@
             },
             {
                 "to": {
-                    "startLine": 109,
+                    "startLine": 147,
                     "startColumn": 4,
-                    "startOffset": 11264,
+                    "startOffset": 11702,
                     "endColumn": 66,
-                    "endOffset": 11326
+                    "endOffset": 11764
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1752,11 +1752,11 @@
             },
             {
                 "to": {
-                    "startLine": 110,
+                    "startLine": 148,
                     "startColumn": 4,
-                    "startOffset": 11331,
+                    "startOffset": 11769,
                     "endColumn": 67,
-                    "endOffset": 11394
+                    "endOffset": 11832
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1771,11 +1771,11 @@
             },
             {
                 "to": {
-                    "startLine": 111,
+                    "startLine": 149,
                     "startColumn": 4,
-                    "startOffset": 11399,
+                    "startOffset": 11837,
                     "endColumn": 67,
-                    "endOffset": 11462
+                    "endOffset": 11900
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1790,11 +1790,11 @@
             },
             {
                 "to": {
-                    "startLine": 112,
+                    "startLine": 150,
                     "startColumn": 4,
-                    "startOffset": 11467,
+                    "startOffset": 11905,
                     "endColumn": 67,
-                    "endOffset": 11530
+                    "endOffset": 11968
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1809,11 +1809,11 @@
             },
             {
                 "to": {
-                    "startLine": 113,
+                    "startLine": 151,
                     "startColumn": 4,
-                    "startOffset": 11535,
+                    "startOffset": 11973,
                     "endColumn": 56,
-                    "endOffset": 11587
+                    "endOffset": 12025
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1828,11 +1828,11 @@
             },
             {
                 "to": {
-                    "startLine": 114,
+                    "startLine": 152,
                     "startColumn": 4,
-                    "startOffset": 11592,
+                    "startOffset": 12030,
                     "endColumn": 48,
-                    "endOffset": 11636
+                    "endOffset": 12074
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1847,11 +1847,11 @@
             },
             {
                 "to": {
-                    "startLine": 115,
+                    "startLine": 153,
                     "startColumn": 4,
-                    "startOffset": 11641,
+                    "startOffset": 12079,
                     "endColumn": 50,
-                    "endOffset": 11687
+                    "endOffset": 12125
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1866,11 +1866,11 @@
             },
             {
                 "to": {
-                    "startLine": 116,
+                    "startLine": 154,
                     "startColumn": 4,
-                    "startOffset": 11692,
+                    "startOffset": 12130,
                     "endColumn": 33,
-                    "endOffset": 11721
+                    "endOffset": 12159
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1885,11 +1885,11 @@
             },
             {
                 "to": {
-                    "startLine": 117,
+                    "startLine": 155,
                     "startColumn": 4,
-                    "startOffset": 11726,
+                    "startOffset": 12164,
                     "endColumn": 46,
-                    "endOffset": 11768
+                    "endOffset": 12206
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1904,11 +1904,11 @@
             },
             {
                 "to": {
-                    "startLine": 118,
+                    "startLine": 156,
                     "startColumn": 4,
-                    "startOffset": 11773,
+                    "startOffset": 12211,
                     "endColumn": 48,
-                    "endOffset": 11817
+                    "endOffset": 12255
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1923,11 +1923,11 @@
             },
             {
                 "to": {
-                    "startLine": 119,
+                    "startLine": 157,
                     "startColumn": 4,
-                    "startOffset": 11822,
+                    "startOffset": 12260,
                     "endColumn": 54,
-                    "endOffset": 11872
+                    "endOffset": 12310
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1942,11 +1942,11 @@
             },
             {
                 "to": {
-                    "startLine": 120,
+                    "startLine": 158,
                     "startColumn": 4,
-                    "startOffset": 11877,
+                    "startOffset": 12315,
                     "endColumn": 73,
-                    "endOffset": 11946
+                    "endOffset": 12384
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1961,11 +1961,11 @@
             },
             {
                 "to": {
-                    "startLine": 121,
+                    "startLine": 159,
                     "startColumn": 4,
-                    "startOffset": 11951,
+                    "startOffset": 12389,
                     "endColumn": 69,
-                    "endOffset": 12016
+                    "endOffset": 12454
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1980,11 +1980,11 @@
             },
             {
                 "to": {
-                    "startLine": 122,
+                    "startLine": 160,
                     "startColumn": 4,
-                    "startOffset": 12021,
+                    "startOffset": 12459,
                     "endColumn": 77,
-                    "endOffset": 12094
+                    "endOffset": 12532
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -1999,11 +1999,11 @@
             },
             {
                 "to": {
-                    "startLine": 123,
+                    "startLine": 161,
                     "startColumn": 4,
-                    "startOffset": 12099,
+                    "startOffset": 12537,
                     "endColumn": 53,
-                    "endOffset": 12148
+                    "endOffset": 12586
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2018,11 +2018,11 @@
             },
             {
                 "to": {
-                    "startLine": 124,
+                    "startLine": 162,
                     "startColumn": 4,
-                    "startOffset": 12153,
+                    "startOffset": 12591,
                     "endColumn": 69,
-                    "endOffset": 12218
+                    "endOffset": 12656
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2037,11 +2037,11 @@
             },
             {
                 "to": {
-                    "startLine": 125,
+                    "startLine": 163,
                     "startColumn": 4,
-                    "startOffset": 12223,
+                    "startOffset": 12661,
                     "endColumn": 84,
-                    "endOffset": 12303
+                    "endOffset": 12741
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2056,11 +2056,11 @@
             },
             {
                 "to": {
-                    "startLine": 126,
+                    "startLine": 164,
                     "startColumn": 4,
-                    "startOffset": 12308,
+                    "startOffset": 12746,
                     "endColumn": 72,
-                    "endOffset": 12376
+                    "endOffset": 12814
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2075,11 +2075,11 @@
             },
             {
                 "to": {
-                    "startLine": 127,
+                    "startLine": 165,
                     "startColumn": 4,
-                    "startOffset": 12381,
+                    "startOffset": 12819,
                     "endColumn": 73,
-                    "endOffset": 12450
+                    "endOffset": 12888
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2094,11 +2094,11 @@
             },
             {
                 "to": {
-                    "startLine": 128,
+                    "startLine": 166,
                     "startColumn": 4,
-                    "startOffset": 12455,
+                    "startOffset": 12893,
                     "endColumn": 68,
-                    "endOffset": 12519
+                    "endOffset": 12957
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2113,11 +2113,11 @@
             },
             {
                 "to": {
-                    "startLine": 129,
+                    "startLine": 167,
                     "startColumn": 4,
-                    "startOffset": 12524,
+                    "startOffset": 12962,
                     "endColumn": 74,
-                    "endOffset": 12594
+                    "endOffset": 13032
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2132,11 +2132,11 @@
             },
             {
                 "to": {
-                    "startLine": 130,
+                    "startLine": 168,
                     "startColumn": 4,
-                    "startOffset": 12599,
+                    "startOffset": 13037,
                     "endColumn": 73,
-                    "endOffset": 12668
+                    "endOffset": 13106
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2151,11 +2151,11 @@
             },
             {
                 "to": {
-                    "startLine": 131,
+                    "startLine": 169,
                     "startColumn": 4,
-                    "startOffset": 12673,
+                    "startOffset": 13111,
                     "endColumn": 73,
-                    "endOffset": 12742
+                    "endOffset": 13180
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2170,11 +2170,11 @@
             },
             {
                 "to": {
-                    "startLine": 132,
+                    "startLine": 170,
                     "startColumn": 4,
-                    "startOffset": 12747,
+                    "startOffset": 13185,
                     "endColumn": 88,
-                    "endOffset": 12831
+                    "endOffset": 13269
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2189,11 +2189,11 @@
             },
             {
                 "to": {
-                    "startLine": 133,
+                    "startLine": 171,
                     "startColumn": 4,
-                    "startOffset": 12836,
+                    "startOffset": 13274,
                     "endColumn": 56,
-                    "endOffset": 12888
+                    "endOffset": 13326
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\strings.xml",
@@ -2208,11 +2208,11 @@
             },
             {
                 "to": {
-                    "startLine": 134,
+                    "startLine": 172,
                     "startColumn": 4,
-                    "startOffset": 12893,
+                    "startOffset": 13331,
                     "endColumn": 58,
-                    "endOffset": 12947
+                    "endOffset": 13385
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\strings.xml",
@@ -2227,11 +2227,11 @@
             },
             {
                 "to": {
-                    "startLine": 135,
+                    "startLine": 173,
                     "startColumn": 4,
-                    "startOffset": 12952,
+                    "startOffset": 13390,
                     "endColumn": 46,
-                    "endOffset": 12994
+                    "endOffset": 13432
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\strings.xml",
@@ -2246,11 +2246,11 @@
             },
             {
                 "to": {
-                    "startLine": 136,
+                    "startLine": 174,
                     "startColumn": 4,
-                    "startOffset": 12999,
+                    "startOffset": 13437,
                     "endColumn": 65,
-                    "endOffset": 13060
+                    "endOffset": 13498
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\strings.xml",
@@ -2265,11 +2265,11 @@
             },
             {
                 "to": {
-                    "startLine": 137,
+                    "startLine": 175,
                     "startColumn": 4,
-                    "startOffset": 13065,
+                    "startOffset": 13503,
                     "endColumn": 71,
-                    "endOffset": 13132
+                    "endOffset": 13570
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\src\\main\\res\\values\\strings.xml",
@@ -2284,12 +2284,12 @@
             },
             {
                 "to": {
-                    "startLine": 138,
+                    "startLine": 176,
                     "startColumn": 4,
-                    "startOffset": 13137,
-                    "endLine": 140,
+                    "startOffset": 13575,
+                    "endLine": 178,
                     "endColumn": 12,
-                    "endOffset": 13332
+                    "endOffset": 13770
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2305,12 +2305,12 @@
             },
             {
                 "to": {
-                    "startLine": 141,
+                    "startLine": 179,
                     "startColumn": 4,
-                    "startOffset": 13337,
-                    "endLine": 145,
+                    "startOffset": 13775,
+                    "endLine": 183,
                     "endColumn": 12,
-                    "endOffset": 13615
+                    "endOffset": 14053
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2326,12 +2326,12 @@
             },
             {
                 "to": {
-                    "startLine": 146,
+                    "startLine": 184,
                     "startColumn": 4,
-                    "startOffset": 13620,
-                    "endLine": 149,
+                    "startOffset": 14058,
+                    "endLine": 187,
                     "endColumn": 12,
-                    "endOffset": 13823
+                    "endOffset": 14261
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2347,12 +2347,12 @@
             },
             {
                 "to": {
-                    "startLine": 150,
+                    "startLine": 188,
                     "startColumn": 4,
-                    "startOffset": 13828,
-                    "endLine": 152,
+                    "startOffset": 14266,
+                    "endLine": 190,
                     "endColumn": 12,
-                    "endOffset": 13954
+                    "endOffset": 14392
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2368,12 +2368,12 @@
             },
             {
                 "to": {
-                    "startLine": 153,
+                    "startLine": 191,
                     "startColumn": 4,
-                    "startOffset": 13959,
-                    "endLine": 156,
+                    "startOffset": 14397,
+                    "endLine": 194,
                     "endColumn": 12,
-                    "endOffset": 14216
+                    "endOffset": 14654
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2389,12 +2389,12 @@
             },
             {
                 "to": {
-                    "startLine": 157,
+                    "startLine": 195,
                     "startColumn": 4,
-                    "startOffset": 14221,
-                    "endLine": 160,
+                    "startOffset": 14659,
+                    "endLine": 198,
                     "endColumn": 12,
-                    "endOffset": 14478
+                    "endOffset": 14916
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2410,12 +2410,12 @@
             },
             {
                 "to": {
-                    "startLine": 161,
+                    "startLine": 199,
                     "startColumn": 4,
-                    "startOffset": 14483,
-                    "endLine": 164,
+                    "startOffset": 14921,
+                    "endLine": 202,
                     "endColumn": 12,
-                    "endOffset": 14756
+                    "endOffset": 15194
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2431,12 +2431,12 @@
             },
             {
                 "to": {
-                    "startLine": 165,
+                    "startLine": 203,
                     "startColumn": 4,
-                    "startOffset": 14761,
-                    "endLine": 168,
+                    "startOffset": 15199,
+                    "endLine": 206,
                     "endColumn": 12,
-                    "endOffset": 14970
+                    "endOffset": 15408
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2452,12 +2452,12 @@
             },
             {
                 "to": {
-                    "startLine": 169,
+                    "startLine": 207,
                     "startColumn": 4,
-                    "startOffset": 14975,
-                    "endLine": 171,
+                    "startOffset": 15413,
+                    "endLine": 209,
                     "endColumn": 12,
-                    "endOffset": 15107
+                    "endOffset": 15545
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2473,11 +2473,11 @@
             },
             {
                 "to": {
-                    "startLine": 172,
+                    "startLine": 210,
                     "startColumn": 4,
-                    "startOffset": 15112,
+                    "startOffset": 15550,
                     "endColumn": 140,
-                    "endOffset": 15248
+                    "endOffset": 15686
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2492,11 +2492,11 @@
             },
             {
                 "to": {
-                    "startLine": 173,
+                    "startLine": 211,
                     "startColumn": 4,
-                    "startOffset": 15253,
+                    "startOffset": 15691,
                     "endColumn": 140,
-                    "endOffset": 15389
+                    "endOffset": 15827
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2511,11 +2511,11 @@
             },
             {
                 "to": {
-                    "startLine": 174,
+                    "startLine": 212,
                     "startColumn": 4,
-                    "startOffset": 15394,
+                    "startOffset": 15832,
                     "endColumn": 139,
-                    "endOffset": 15529
+                    "endOffset": 15967
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2530,11 +2530,11 @@
             },
             {
                 "to": {
-                    "startLine": 175,
+                    "startLine": 213,
                     "startColumn": 4,
-                    "startOffset": 15534,
+                    "startOffset": 15972,
                     "endColumn": 133,
-                    "endOffset": 15663
+                    "endOffset": 16101
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2549,11 +2549,11 @@
             },
             {
                 "to": {
-                    "startLine": 176,
+                    "startLine": 214,
                     "startColumn": 4,
-                    "startOffset": 15668,
+                    "startOffset": 16106,
                     "endColumn": 141,
-                    "endOffset": 15805
+                    "endOffset": 16243
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2568,11 +2568,11 @@
             },
             {
                 "to": {
-                    "startLine": 177,
+                    "startLine": 215,
                     "startColumn": 4,
-                    "startOffset": 15810,
+                    "startOffset": 16248,
                     "endColumn": 141,
-                    "endOffset": 15947
+                    "endOffset": 16385
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2587,11 +2587,11 @@
             },
             {
                 "to": {
-                    "startLine": 178,
+                    "startLine": 216,
                     "startColumn": 4,
-                    "startOffset": 15952,
+                    "startOffset": 16390,
                     "endColumn": 127,
-                    "endOffset": 16075
+                    "endOffset": 16513
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2606,11 +2606,11 @@
             },
             {
                 "to": {
-                    "startLine": 179,
+                    "startLine": 217,
                     "startColumn": 4,
-                    "startOffset": 16080,
+                    "startOffset": 16518,
                     "endColumn": 121,
-                    "endOffset": 16197
+                    "endOffset": 16635
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2625,11 +2625,11 @@
             },
             {
                 "to": {
-                    "startLine": 180,
+                    "startLine": 218,
                     "startColumn": 4,
-                    "startOffset": 16202,
+                    "startOffset": 16640,
                     "endColumn": 127,
-                    "endOffset": 16325
+                    "endOffset": 16763
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2644,11 +2644,11 @@
             },
             {
                 "to": {
-                    "startLine": 181,
+                    "startLine": 219,
                     "startColumn": 4,
-                    "startOffset": 16330,
+                    "startOffset": 16768,
                     "endColumn": 135,
-                    "endOffset": 16461
+                    "endOffset": 16899
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2663,11 +2663,11 @@
             },
             {
                 "to": {
-                    "startLine": 182,
+                    "startLine": 220,
                     "startColumn": 4,
-                    "startOffset": 16466,
+                    "startOffset": 16904,
                     "endColumn": 151,
-                    "endOffset": 16613
+                    "endOffset": 17051
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2682,11 +2682,11 @@
             },
             {
                 "to": {
-                    "startLine": 183,
+                    "startLine": 221,
                     "startColumn": 4,
-                    "startOffset": 16618,
+                    "startOffset": 17056,
                     "endColumn": 129,
-                    "endOffset": 16743
+                    "endOffset": 17181
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2701,11 +2701,11 @@
             },
             {
                 "to": {
-                    "startLine": 184,
+                    "startLine": 222,
                     "startColumn": 4,
-                    "startOffset": 16748,
+                    "startOffset": 17186,
                     "endColumn": 145,
-                    "endOffset": 16889
+                    "endOffset": 17327
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2720,11 +2720,11 @@
             },
             {
                 "to": {
-                    "startLine": 185,
+                    "startLine": 223,
                     "startColumn": 4,
-                    "startOffset": 16894,
+                    "startOffset": 17332,
                     "endColumn": 137,
-                    "endOffset": 17027
+                    "endOffset": 17465
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2739,11 +2739,11 @@
             },
             {
                 "to": {
-                    "startLine": 186,
+                    "startLine": 224,
                     "startColumn": 4,
-                    "startOffset": 17032,
+                    "startOffset": 17470,
                     "endColumn": 153,
-                    "endOffset": 17181
+                    "endOffset": 17619
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2758,11 +2758,11 @@
             },
             {
                 "to": {
-                    "startLine": 187,
+                    "startLine": 225,
                     "startColumn": 4,
-                    "startOffset": 17186,
+                    "startOffset": 17624,
                     "endColumn": 131,
-                    "endOffset": 17313
+                    "endOffset": 17751
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2777,11 +2777,11 @@
             },
             {
                 "to": {
-                    "startLine": 188,
+                    "startLine": 226,
                     "startColumn": 4,
-                    "startOffset": 17318,
+                    "startOffset": 17756,
                     "endColumn": 147,
-                    "endOffset": 17461
+                    "endOffset": 17899
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2796,12 +2796,12 @@
             },
             {
                 "to": {
-                    "startLine": 189,
+                    "startLine": 227,
                     "startColumn": 4,
-                    "startOffset": 17466,
-                    "endLine": 193,
+                    "startOffset": 17904,
+                    "endLine": 231,
                     "endColumn": 12,
-                    "endOffset": 17756
+                    "endOffset": 18194
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2817,12 +2817,12 @@
             },
             {
                 "to": {
-                    "startLine": 194,
+                    "startLine": 232,
                     "startColumn": 4,
-                    "startOffset": 17761,
-                    "endLine": 196,
+                    "startOffset": 18199,
+                    "endLine": 234,
                     "endColumn": 12,
-                    "endOffset": 17968
+                    "endOffset": 18406
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2838,12 +2838,12 @@
             },
             {
                 "to": {
-                    "startLine": 197,
+                    "startLine": 235,
                     "startColumn": 4,
-                    "startOffset": 17973,
-                    "endLine": 199,
+                    "startOffset": 18411,
+                    "endLine": 237,
                     "endColumn": 12,
-                    "endOffset": 18196
+                    "endOffset": 18634
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2859,12 +2859,12 @@
             },
             {
                 "to": {
-                    "startLine": 200,
+                    "startLine": 238,
                     "startColumn": 4,
-                    "startOffset": 18201,
-                    "endLine": 202,
+                    "startOffset": 18639,
+                    "endLine": 240,
                     "endColumn": 12,
-                    "endOffset": 18403
+                    "endOffset": 18841
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2880,12 +2880,12 @@
             },
             {
                 "to": {
-                    "startLine": 203,
+                    "startLine": 241,
                     "startColumn": 4,
-                    "startOffset": 18408,
-                    "endLine": 205,
+                    "startOffset": 18846,
+                    "endLine": 243,
                     "endColumn": 12,
-                    "endOffset": 18626
+                    "endOffset": 19064
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2901,12 +2901,12 @@
             },
             {
                 "to": {
-                    "startLine": 206,
+                    "startLine": 244,
                     "startColumn": 4,
-                    "startOffset": 18631,
-                    "endLine": 208,
+                    "startOffset": 19069,
+                    "endLine": 246,
                     "endColumn": 12,
-                    "endOffset": 18832
+                    "endOffset": 19270
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2922,12 +2922,12 @@
             },
             {
                 "to": {
-                    "startLine": 209,
+                    "startLine": 247,
                     "startColumn": 4,
-                    "startOffset": 18837,
-                    "endLine": 211,
+                    "startOffset": 19275,
+                    "endLine": 249,
                     "endColumn": 12,
-                    "endOffset": 19061
+                    "endOffset": 19499
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2943,11 +2943,11 @@
             },
             {
                 "to": {
-                    "startLine": 212,
+                    "startLine": 250,
                     "startColumn": 4,
-                    "startOffset": 19066,
+                    "startOffset": 19504,
                     "endColumn": 112,
-                    "endOffset": 19174
+                    "endOffset": 19612
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2962,11 +2962,11 @@
             },
             {
                 "to": {
-                    "startLine": 213,
+                    "startLine": 251,
                     "startColumn": 4,
-                    "startOffset": 19179,
+                    "startOffset": 19617,
                     "endColumn": 128,
-                    "endOffset": 19303
+                    "endOffset": 19741
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -2981,12 +2981,12 @@
             },
             {
                 "to": {
-                    "startLine": 214,
+                    "startLine": 252,
                     "startColumn": 4,
-                    "startOffset": 19308,
-                    "endLine": 216,
+                    "startOffset": 19746,
+                    "endLine": 254,
                     "endColumn": 12,
-                    "endOffset": 19511
+                    "endOffset": 19949
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3002,11 +3002,11 @@
             },
             {
                 "to": {
-                    "startLine": 217,
+                    "startLine": 255,
                     "startColumn": 4,
-                    "startOffset": 19516,
+                    "startOffset": 19954,
                     "endColumn": 123,
-                    "endOffset": 19635
+                    "endOffset": 20073
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3021,11 +3021,11 @@
             },
             {
                 "to": {
-                    "startLine": 218,
+                    "startLine": 256,
                     "startColumn": 4,
-                    "startOffset": 19640,
+                    "startOffset": 20078,
                     "endColumn": 129,
-                    "endOffset": 19765
+                    "endOffset": 20203
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3040,11 +3040,11 @@
             },
             {
                 "to": {
-                    "startLine": 219,
+                    "startLine": 257,
                     "startColumn": 4,
-                    "startOffset": 19770,
+                    "startOffset": 20208,
                     "endColumn": 129,
-                    "endOffset": 19895
+                    "endOffset": 20333
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3059,12 +3059,12 @@
             },
             {
                 "to": {
-                    "startLine": 220,
+                    "startLine": 258,
                     "startColumn": 4,
-                    "startOffset": 19900,
-                    "endLine": 222,
+                    "startOffset": 20338,
+                    "endLine": 260,
                     "endColumn": 12,
-                    "endOffset": 20109
+                    "endOffset": 20547
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3080,11 +3080,11 @@
             },
             {
                 "to": {
-                    "startLine": 223,
+                    "startLine": 261,
                     "startColumn": 4,
-                    "startOffset": 20114,
+                    "startOffset": 20552,
                     "endColumn": 133,
-                    "endOffset": 20243
+                    "endOffset": 20681
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3099,12 +3099,12 @@
             },
             {
                 "to": {
-                    "startLine": 224,
+                    "startLine": 262,
                     "startColumn": 4,
-                    "startOffset": 20248,
-                    "endLine": 257,
+                    "startOffset": 20686,
+                    "endLine": 295,
                     "endColumn": 12,
-                    "endOffset": 22732
+                    "endOffset": 23170
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3120,12 +3120,12 @@
             },
             {
                 "to": {
-                    "startLine": 258,
+                    "startLine": 296,
                     "startColumn": 4,
-                    "startOffset": 22737,
-                    "endLine": 261,
+                    "startOffset": 23175,
+                    "endLine": 299,
                     "endColumn": 12,
-                    "endOffset": 23019
+                    "endOffset": 23457
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3141,12 +3141,12 @@
             },
             {
                 "to": {
-                    "startLine": 262,
+                    "startLine": 300,
                     "startColumn": 4,
-                    "startOffset": 23024,
-                    "endLine": 265,
+                    "startOffset": 23462,
+                    "endLine": 303,
                     "endColumn": 12,
-                    "endOffset": 23310
+                    "endOffset": 23748
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3162,11 +3162,11 @@
             },
             {
                 "to": {
-                    "startLine": 266,
+                    "startLine": 304,
                     "startColumn": 4,
-                    "startOffset": 23315,
+                    "startOffset": 23753,
                     "endColumn": 89,
-                    "endOffset": 23400
+                    "endOffset": 23838
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3181,11 +3181,11 @@
             },
             {
                 "to": {
-                    "startLine": 267,
+                    "startLine": 305,
                     "startColumn": 4,
-                    "startOffset": 23405,
+                    "startOffset": 23843,
                     "endColumn": 103,
-                    "endOffset": 23504
+                    "endOffset": 23942
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3200,11 +3200,11 @@
             },
             {
                 "to": {
-                    "startLine": 268,
+                    "startLine": 306,
                     "startColumn": 4,
-                    "startOffset": 23509,
+                    "startOffset": 23947,
                     "endColumn": 97,
-                    "endOffset": 23602
+                    "endOffset": 24040
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3219,12 +3219,12 @@
             },
             {
                 "to": {
-                    "startLine": 269,
+                    "startLine": 307,
                     "startColumn": 4,
-                    "startOffset": 23607,
-                    "endLine": 302,
+                    "startOffset": 24045,
+                    "endLine": 340,
                     "endColumn": 12,
-                    "endOffset": 26230
+                    "endOffset": 26668
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3240,12 +3240,12 @@
             },
             {
                 "to": {
-                    "startLine": 303,
+                    "startLine": 341,
                     "startColumn": 4,
-                    "startOffset": 26235,
-                    "endLine": 336,
+                    "startOffset": 26673,
+                    "endLine": 374,
                     "endColumn": 12,
-                    "endOffset": 28782
+                    "endOffset": 29220
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3261,11 +3261,11 @@
             },
             {
                 "to": {
-                    "startLine": 337,
+                    "startLine": 375,
                     "startColumn": 4,
-                    "startOffset": 28787,
+                    "startOffset": 29225,
                     "endColumn": 109,
-                    "endOffset": 28892
+                    "endOffset": 29330
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3280,11 +3280,11 @@
             },
             {
                 "to": {
-                    "startLine": 338,
+                    "startLine": 376,
                     "startColumn": 4,
-                    "startOffset": 28897,
+                    "startOffset": 29335,
                     "endColumn": 53,
-                    "endOffset": 28946
+                    "endOffset": 29384
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3299,12 +3299,12 @@
             },
             {
                 "to": {
-                    "startLine": 339,
+                    "startLine": 377,
                     "startColumn": 4,
-                    "startOffset": 28951,
-                    "endLine": 385,
+                    "startOffset": 29389,
+                    "endLine": 423,
                     "endColumn": 12,
-                    "endOffset": 32320
+                    "endOffset": 32758
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3320,12 +3320,12 @@
             },
             {
                 "to": {
-                    "startLine": 386,
+                    "startLine": 424,
                     "startColumn": 4,
-                    "startOffset": 32325,
-                    "endLine": 419,
+                    "startOffset": 32763,
+                    "endLine": 457,
                     "endColumn": 12,
-                    "endOffset": 34735
+                    "endOffset": 35173
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3341,11 +3341,11 @@
             },
             {
                 "to": {
-                    "startLine": 420,
+                    "startLine": 458,
                     "startColumn": 4,
-                    "startOffset": 34740,
+                    "startOffset": 35178,
                     "endColumn": 110,
-                    "endOffset": 34846
+                    "endOffset": 35284
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3360,11 +3360,11 @@
             },
             {
                 "to": {
-                    "startLine": 421,
+                    "startLine": 459,
                     "startColumn": 4,
-                    "startOffset": 34851,
+                    "startOffset": 35289,
                     "endColumn": 86,
-                    "endOffset": 34933
+                    "endOffset": 35371
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3379,12 +3379,12 @@
             },
             {
                 "to": {
-                    "startLine": 422,
+                    "startLine": 460,
                     "startColumn": 4,
-                    "startOffset": 34938,
-                    "endLine": 470,
+                    "startOffset": 35376,
+                    "endLine": 508,
                     "endColumn": 12,
-                    "endOffset": 38436
+                    "endOffset": 38874
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3400,12 +3400,12 @@
             },
             {
                 "to": {
-                    "startLine": 471,
+                    "startLine": 509,
                     "startColumn": 4,
-                    "startOffset": 38441,
-                    "endLine": 496,
+                    "startOffset": 38879,
+                    "endLine": 534,
                     "endColumn": 12,
-                    "endOffset": 40354
+                    "endOffset": 40792
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3421,11 +3421,11 @@
             },
             {
                 "to": {
-                    "startLine": 497,
+                    "startLine": 535,
                     "startColumn": 4,
-                    "startOffset": 40359,
+                    "startOffset": 40797,
                     "endColumn": 98,
-                    "endOffset": 40453
+                    "endOffset": 40891
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3440,11 +3440,11 @@
             },
             {
                 "to": {
-                    "startLine": 498,
+                    "startLine": 536,
                     "startColumn": 4,
-                    "startOffset": 40458,
+                    "startOffset": 40896,
                     "endColumn": 65,
-                    "endOffset": 40519
+                    "endOffset": 40957
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3459,11 +3459,11 @@
             },
             {
                 "to": {
-                    "startLine": 499,
+                    "startLine": 537,
                     "startColumn": 4,
-                    "startOffset": 40524,
+                    "startOffset": 40962,
                     "endColumn": 87,
-                    "endOffset": 40607
+                    "endOffset": 41045
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3478,11 +3478,11 @@
             },
             {
                 "to": {
-                    "startLine": 500,
+                    "startLine": 538,
                     "startColumn": 4,
-                    "startOffset": 40612,
+                    "startOffset": 41050,
                     "endColumn": 99,
-                    "endOffset": 40707
+                    "endOffset": 41145
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3497,11 +3497,11 @@
             },
             {
                 "to": {
-                    "startLine": 501,
+                    "startLine": 539,
                     "startColumn": 4,
-                    "startOffset": 40712,
+                    "startOffset": 41150,
                     "endColumn": 101,
-                    "endOffset": 40809
+                    "endOffset": 41247
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3516,11 +3516,11 @@
             },
             {
                 "to": {
-                    "startLine": 502,
+                    "startLine": 540,
                     "startColumn": 4,
-                    "startOffset": 40814,
+                    "startOffset": 41252,
                     "endColumn": 103,
-                    "endOffset": 40913
+                    "endOffset": 41351
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3535,11 +3535,11 @@
             },
             {
                 "to": {
-                    "startLine": 503,
+                    "startLine": 541,
                     "startColumn": 4,
-                    "startOffset": 40918,
+                    "startOffset": 41356,
                     "endColumn": 103,
-                    "endOffset": 41017
+                    "endOffset": 41455
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3554,11 +3554,11 @@
             },
             {
                 "to": {
-                    "startLine": 504,
+                    "startLine": 542,
                     "startColumn": 4,
-                    "startOffset": 41022,
+                    "startOffset": 41460,
                     "endColumn": 93,
-                    "endOffset": 41111
+                    "endOffset": 41549
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3573,11 +3573,11 @@
             },
             {
                 "to": {
-                    "startLine": 505,
+                    "startLine": 543,
                     "startColumn": 4,
-                    "startOffset": 41116,
+                    "startOffset": 41554,
                     "endColumn": 113,
-                    "endOffset": 41225
+                    "endOffset": 41663
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3592,11 +3592,11 @@
             },
             {
                 "to": {
-                    "startLine": 506,
+                    "startLine": 544,
                     "startColumn": 4,
-                    "startOffset": 41230,
+                    "startOffset": 41668,
                     "endColumn": 111,
-                    "endOffset": 41337
+                    "endOffset": 41775
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3611,11 +3611,11 @@
             },
             {
                 "to": {
-                    "startLine": 507,
+                    "startLine": 545,
                     "startColumn": 4,
-                    "startOffset": 41342,
+                    "startOffset": 41780,
                     "endColumn": 89,
-                    "endOffset": 41427
+                    "endOffset": 41865
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3630,11 +3630,11 @@
             },
             {
                 "to": {
-                    "startLine": 508,
+                    "startLine": 546,
                     "startColumn": 4,
-                    "startOffset": 41432,
+                    "startOffset": 41870,
                     "endColumn": 107,
-                    "endOffset": 41535
+                    "endOffset": 41973
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3649,11 +3649,11 @@
             },
             {
                 "to": {
-                    "startLine": 509,
+                    "startLine": 547,
                     "startColumn": 4,
-                    "startOffset": 41540,
+                    "startOffset": 41978,
                     "endColumn": 109,
-                    "endOffset": 41645
+                    "endOffset": 42083
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3668,12 +3668,12 @@
             },
             {
                 "to": {
-                    "startLine": 510,
+                    "startLine": 548,
                     "startColumn": 4,
-                    "startOffset": 41650,
-                    "endLine": 524,
+                    "startOffset": 42088,
+                    "endLine": 562,
                     "endColumn": 12,
-                    "endOffset": 42798
+                    "endOffset": 43236
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3689,12 +3689,12 @@
             },
             {
                 "to": {
-                    "startLine": 525,
+                    "startLine": 563,
                     "startColumn": 4,
-                    "startOffset": 42803,
-                    "endLine": 529,
+                    "startOffset": 43241,
+                    "endLine": 567,
                     "endColumn": 12,
-                    "endOffset": 43152
+                    "endOffset": 43590
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3710,12 +3710,12 @@
             },
             {
                 "to": {
-                    "startLine": 530,
+                    "startLine": 568,
                     "startColumn": 4,
-                    "startOffset": 43157,
-                    "endLine": 534,
+                    "startOffset": 43595,
+                    "endLine": 572,
                     "endColumn": 12,
-                    "endOffset": 43389
+                    "endOffset": 43827
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3731,12 +3731,12 @@
             },
             {
                 "to": {
-                    "startLine": 535,
+                    "startLine": 573,
                     "startColumn": 4,
-                    "startOffset": 43394,
-                    "endLine": 543,
+                    "startOffset": 43832,
+                    "endLine": 581,
                     "endColumn": 12,
-                    "endOffset": 43863
+                    "endOffset": 44301
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3752,12 +3752,12 @@
             },
             {
                 "to": {
-                    "startLine": 544,
+                    "startLine": 582,
                     "startColumn": 4,
-                    "startOffset": 43868,
-                    "endLine": 550,
+                    "startOffset": 44306,
+                    "endLine": 588,
                     "endColumn": 12,
-                    "endOffset": 44250
+                    "endOffset": 44688
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3773,12 +3773,12 @@
             },
             {
                 "to": {
-                    "startLine": 551,
+                    "startLine": 589,
                     "startColumn": 4,
-                    "startOffset": 44255,
-                    "endLine": 560,
+                    "startOffset": 44693,
+                    "endLine": 598,
                     "endColumn": 12,
-                    "endOffset": 44836
+                    "endOffset": 45274
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3794,11 +3794,11 @@
             },
             {
                 "to": {
-                    "startLine": 561,
+                    "startLine": 599,
                     "startColumn": 4,
-                    "startOffset": 44841,
+                    "startOffset": 45279,
                     "endColumn": 108,
-                    "endOffset": 44945
+                    "endOffset": 45383
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3813,12 +3813,12 @@
             },
             {
                 "to": {
-                    "startLine": 562,
+                    "startLine": 600,
                     "startColumn": 4,
-                    "startOffset": 44950,
-                    "endLine": 564,
+                    "startOffset": 45388,
+                    "endLine": 602,
                     "endColumn": 12,
-                    "endOffset": 45157
+                    "endOffset": 45595
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3834,12 +3834,12 @@
             },
             {
                 "to": {
-                    "startLine": 565,
+                    "startLine": 603,
                     "startColumn": 4,
-                    "startOffset": 45162,
-                    "endLine": 571,
+                    "startOffset": 45600,
+                    "endLine": 609,
                     "endColumn": 12,
-                    "endOffset": 45633
+                    "endOffset": 46071
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3855,12 +3855,12 @@
             },
             {
                 "to": {
-                    "startLine": 572,
+                    "startLine": 610,
                     "startColumn": 4,
-                    "startOffset": 45638,
-                    "endLine": 578,
+                    "startOffset": 46076,
+                    "endLine": 616,
                     "endColumn": 12,
-                    "endOffset": 46007
+                    "endOffset": 46445
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3876,12 +3876,12 @@
             },
             {
                 "to": {
-                    "startLine": 579,
+                    "startLine": 617,
                     "startColumn": 4,
-                    "startOffset": 46012,
-                    "endLine": 583,
+                    "startOffset": 46450,
+                    "endLine": 621,
                     "endColumn": 12,
-                    "endOffset": 46386
+                    "endOffset": 46824
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3897,12 +3897,12 @@
             },
             {
                 "to": {
-                    "startLine": 584,
+                    "startLine": 622,
                     "startColumn": 4,
-                    "startOffset": 46391,
-                    "endLine": 589,
+                    "startOffset": 46829,
+                    "endLine": 627,
                     "endColumn": 12,
-                    "endOffset": 46739
+                    "endOffset": 47177
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3918,12 +3918,12 @@
             },
             {
                 "to": {
-                    "startLine": 590,
+                    "startLine": 628,
                     "startColumn": 4,
-                    "startOffset": 46744,
-                    "endLine": 596,
+                    "startOffset": 47182,
+                    "endLine": 634,
                     "endColumn": 12,
-                    "endOffset": 47199
+                    "endOffset": 47637
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3939,12 +3939,12 @@
             },
             {
                 "to": {
-                    "startLine": 597,
+                    "startLine": 635,
                     "startColumn": 4,
-                    "startOffset": 47204,
-                    "endLine": 599,
+                    "startOffset": 47642,
+                    "endLine": 637,
                     "endColumn": 12,
-                    "endOffset": 47391
+                    "endOffset": 47829
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3960,12 +3960,12 @@
             },
             {
                 "to": {
-                    "startLine": 600,
+                    "startLine": 638,
                     "startColumn": 4,
-                    "startOffset": 47396,
-                    "endLine": 603,
+                    "startOffset": 47834,
+                    "endLine": 641,
                     "endColumn": 12,
-                    "endOffset": 47650
+                    "endOffset": 48088
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -3981,11 +3981,11 @@
             },
             {
                 "to": {
-                    "startLine": 604,
+                    "startLine": 642,
                     "startColumn": 4,
-                    "startOffset": 47655,
+                    "startOffset": 48093,
                     "endColumn": 105,
-                    "endOffset": 47756
+                    "endOffset": 48194
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4000,12 +4000,12 @@
             },
             {
                 "to": {
-                    "startLine": 605,
+                    "startLine": 643,
                     "startColumn": 4,
-                    "startOffset": 47761,
-                    "endLine": 610,
+                    "startOffset": 48199,
+                    "endLine": 648,
                     "endColumn": 12,
-                    "endOffset": 48200
+                    "endOffset": 48638
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4021,11 +4021,11 @@
             },
             {
                 "to": {
-                    "startLine": 611,
+                    "startLine": 649,
                     "startColumn": 4,
-                    "startOffset": 48205,
+                    "startOffset": 48643,
                     "endColumn": 111,
-                    "endOffset": 48312
+                    "endOffset": 48750
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4040,12 +4040,12 @@
             },
             {
                 "to": {
-                    "startLine": 612,
+                    "startLine": 650,
                     "startColumn": 4,
-                    "startOffset": 48317,
-                    "endLine": 622,
+                    "startOffset": 48755,
+                    "endLine": 660,
                     "endColumn": 12,
-                    "endOffset": 49011
+                    "endOffset": 49449
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4061,11 +4061,11 @@
             },
             {
                 "to": {
-                    "startLine": 623,
+                    "startLine": 661,
                     "startColumn": 4,
-                    "startOffset": 49016,
+                    "startOffset": 49454,
                     "endColumn": 109,
-                    "endOffset": 49121
+                    "endOffset": 49559
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4080,11 +4080,11 @@
             },
             {
                 "to": {
-                    "startLine": 624,
+                    "startLine": 662,
                     "startColumn": 4,
-                    "startOffset": 49126,
+                    "startOffset": 49564,
                     "endColumn": 99,
-                    "endOffset": 49221
+                    "endOffset": 49659
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4099,11 +4099,11 @@
             },
             {
                 "to": {
-                    "startLine": 625,
+                    "startLine": 663,
                     "startColumn": 4,
-                    "startOffset": 49226,
+                    "startOffset": 49664,
                     "endColumn": 111,
-                    "endOffset": 49333
+                    "endOffset": 49771
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4118,11 +4118,11 @@
             },
             {
                 "to": {
-                    "startLine": 626,
+                    "startLine": 664,
                     "startColumn": 4,
-                    "startOffset": 49338,
+                    "startOffset": 49776,
                     "endColumn": 127,
-                    "endOffset": 49461
+                    "endOffset": 49899
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4137,11 +4137,11 @@
             },
             {
                 "to": {
-                    "startLine": 627,
+                    "startLine": 665,
                     "startColumn": 4,
-                    "startOffset": 49466,
+                    "startOffset": 49904,
                     "endColumn": 113,
-                    "endOffset": 49575
+                    "endOffset": 50013
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4156,11 +4156,11 @@
             },
             {
                 "to": {
-                    "startLine": 628,
+                    "startLine": 666,
                     "startColumn": 4,
-                    "startOffset": 49580,
+                    "startOffset": 50018,
                     "endColumn": 129,
-                    "endOffset": 49705
+                    "endOffset": 50143
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4175,11 +4175,11 @@
             },
             {
                 "to": {
-                    "startLine": 629,
+                    "startLine": 667,
                     "startColumn": 4,
-                    "startOffset": 49710,
+                    "startOffset": 50148,
                     "endColumn": 115,
-                    "endOffset": 49821
+                    "endOffset": 50259
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4194,11 +4194,11 @@
             },
             {
                 "to": {
-                    "startLine": 630,
+                    "startLine": 668,
                     "startColumn": 4,
-                    "startOffset": 49826,
+                    "startOffset": 50264,
                     "endColumn": 131,
-                    "endOffset": 49953
+                    "endOffset": 50391
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4213,11 +4213,11 @@
             },
             {
                 "to": {
-                    "startLine": 631,
+                    "startLine": 669,
                     "startColumn": 4,
-                    "startOffset": 49958,
+                    "startOffset": 50396,
                     "endColumn": 115,
-                    "endOffset": 50069
+                    "endOffset": 50507
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4232,11 +4232,11 @@
             },
             {
                 "to": {
-                    "startLine": 632,
+                    "startLine": 670,
                     "startColumn": 4,
-                    "startOffset": 50074,
+                    "startOffset": 50512,
                     "endColumn": 131,
-                    "endOffset": 50201
+                    "endOffset": 50639
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4251,11 +4251,11 @@
             },
             {
                 "to": {
-                    "startLine": 633,
+                    "startLine": 671,
                     "startColumn": 4,
-                    "startOffset": 50206,
+                    "startOffset": 50644,
                     "endColumn": 105,
-                    "endOffset": 50307
+                    "endOffset": 50745
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4270,11 +4270,11 @@
             },
             {
                 "to": {
-                    "startLine": 634,
+                    "startLine": 672,
                     "startColumn": 4,
-                    "startOffset": 50312,
+                    "startOffset": 50750,
                     "endColumn": 125,
-                    "endOffset": 50433
+                    "endOffset": 50871
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4289,11 +4289,11 @@
             },
             {
                 "to": {
-                    "startLine": 635,
+                    "startLine": 673,
                     "startColumn": 4,
-                    "startOffset": 50438,
+                    "startOffset": 50876,
                     "endColumn": 123,
-                    "endOffset": 50557
+                    "endOffset": 50995
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4308,11 +4308,11 @@
             },
             {
                 "to": {
-                    "startLine": 636,
+                    "startLine": 674,
                     "startColumn": 4,
-                    "startOffset": 50562,
+                    "startOffset": 51000,
                     "endColumn": 117,
-                    "endOffset": 50675
+                    "endOffset": 51113
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4327,11 +4327,11 @@
             },
             {
                 "to": {
-                    "startLine": 637,
+                    "startLine": 675,
                     "startColumn": 4,
-                    "startOffset": 50680,
+                    "startOffset": 51118,
                     "endColumn": 119,
-                    "endOffset": 50795
+                    "endOffset": 51233
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4346,11 +4346,11 @@
             },
             {
                 "to": {
-                    "startLine": 638,
+                    "startLine": 676,
                     "startColumn": 4,
-                    "startOffset": 50800,
+                    "startOffset": 51238,
                     "endColumn": 121,
-                    "endOffset": 50917
+                    "endOffset": 51355
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4365,12 +4365,12 @@
             },
             {
                 "to": {
-                    "startLine": 639,
+                    "startLine": 677,
                     "startColumn": 4,
-                    "startOffset": 50922,
-                    "endLine": 647,
+                    "startOffset": 51360,
+                    "endLine": 685,
                     "endColumn": 12,
-                    "endOffset": 51670
+                    "endOffset": 52108
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4386,12 +4386,12 @@
             },
             {
                 "to": {
-                    "startLine": 648,
+                    "startLine": 686,
                     "startColumn": 4,
-                    "startOffset": 51675,
-                    "endLine": 652,
+                    "startOffset": 52113,
+                    "endLine": 690,
                     "endColumn": 12,
-                    "endOffset": 52039
+                    "endOffset": 52477
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4407,12 +4407,12 @@
             },
             {
                 "to": {
-                    "startLine": 653,
+                    "startLine": 691,
                     "startColumn": 4,
-                    "startOffset": 52044,
-                    "endLine": 658,
+                    "startOffset": 52482,
+                    "endLine": 696,
                     "endColumn": 12,
-                    "endOffset": 52595
+                    "endOffset": 53033
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4428,11 +4428,11 @@
             },
             {
                 "to": {
-                    "startLine": 659,
+                    "startLine": 697,
                     "startColumn": 4,
-                    "startOffset": 52600,
+                    "startOffset": 53038,
                     "endColumn": 112,
-                    "endOffset": 52708
+                    "endOffset": 53146
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4447,11 +4447,11 @@
             },
             {
                 "to": {
-                    "startLine": 660,
+                    "startLine": 698,
                     "startColumn": 4,
-                    "startOffset": 52713,
+                    "startOffset": 53151,
                     "endColumn": 126,
-                    "endOffset": 52835
+                    "endOffset": 53273
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4466,11 +4466,11 @@
             },
             {
                 "to": {
-                    "startLine": 661,
+                    "startLine": 699,
                     "startColumn": 4,
-                    "startOffset": 52840,
+                    "startOffset": 53278,
                     "endColumn": 114,
-                    "endOffset": 52950
+                    "endOffset": 53388
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4485,12 +4485,12 @@
             },
             {
                 "to": {
-                    "startLine": 662,
+                    "startLine": 700,
                     "startColumn": 4,
-                    "startOffset": 52955,
-                    "endLine": 664,
+                    "startOffset": 53393,
+                    "endLine": 702,
                     "endColumn": 12,
-                    "endOffset": 53186
+                    "endOffset": 53624
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4506,11 +4506,11 @@
             },
             {
                 "to": {
-                    "startLine": 665,
+                    "startLine": 703,
                     "startColumn": 4,
-                    "startOffset": 53191,
+                    "startOffset": 53629,
                     "endColumn": 114,
-                    "endOffset": 53301
+                    "endOffset": 53739
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4525,11 +4525,11 @@
             },
             {
                 "to": {
-                    "startLine": 666,
+                    "startLine": 704,
                     "startColumn": 4,
-                    "startOffset": 53306,
+                    "startOffset": 53744,
                     "endColumn": 128,
-                    "endOffset": 53430
+                    "endOffset": 53868
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4544,11 +4544,11 @@
             },
             {
                 "to": {
-                    "startLine": 667,
+                    "startLine": 705,
                     "startColumn": 4,
-                    "startOffset": 53435,
+                    "startOffset": 53873,
                     "endColumn": 104,
-                    "endOffset": 53535
+                    "endOffset": 53973
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4563,11 +4563,11 @@
             },
             {
                 "to": {
-                    "startLine": 668,
+                    "startLine": 706,
                     "startColumn": 4,
-                    "startOffset": 53540,
+                    "startOffset": 53978,
                     "endColumn": 120,
-                    "endOffset": 53656
+                    "endOffset": 54094
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4582,12 +4582,12 @@
             },
             {
                 "to": {
-                    "startLine": 669,
+                    "startLine": 707,
                     "startColumn": 4,
-                    "startOffset": 53661,
-                    "endLine": 671,
+                    "startOffset": 54099,
+                    "endLine": 709,
                     "endColumn": 12,
-                    "endOffset": 53881
+                    "endOffset": 54319
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4603,12 +4603,12 @@
             },
             {
                 "to": {
-                    "startLine": 672,
+                    "startLine": 710,
                     "startColumn": 4,
-                    "startOffset": 53886,
-                    "endLine": 675,
+                    "startOffset": 54324,
+                    "endLine": 713,
                     "endColumn": 12,
-                    "endOffset": 54246
+                    "endOffset": 54684
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4624,12 +4624,12 @@
             },
             {
                 "to": {
-                    "startLine": 676,
+                    "startLine": 714,
                     "startColumn": 4,
-                    "startOffset": 54251,
-                    "endLine": 678,
+                    "startOffset": 54689,
+                    "endLine": 716,
                     "endColumn": 12,
-                    "endOffset": 54463
+                    "endOffset": 54901
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4645,12 +4645,12 @@
             },
             {
                 "to": {
-                    "startLine": 679,
+                    "startLine": 717,
                     "startColumn": 4,
-                    "startOffset": 54468,
-                    "endLine": 683,
+                    "startOffset": 54906,
+                    "endLine": 721,
                     "endColumn": 12,
-                    "endOffset": 54850
+                    "endOffset": 55288
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4666,11 +4666,11 @@
             },
             {
                 "to": {
-                    "startLine": 684,
+                    "startLine": 722,
                     "startColumn": 4,
-                    "startOffset": 54855,
+                    "startOffset": 55293,
                     "endColumn": 120,
-                    "endOffset": 54971
+                    "endOffset": 55409
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4685,12 +4685,12 @@
             },
             {
                 "to": {
-                    "startLine": 685,
+                    "startLine": 723,
                     "startColumn": 4,
-                    "startOffset": 54976,
-                    "endLine": 691,
+                    "startOffset": 55414,
+                    "endLine": 729,
                     "endColumn": 12,
-                    "endOffset": 55439
+                    "endOffset": 55877
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4706,12 +4706,12 @@
             },
             {
                 "to": {
-                    "startLine": 692,
+                    "startLine": 730,
                     "startColumn": 4,
-                    "startOffset": 55444,
-                    "endLine": 694,
+                    "startOffset": 55882,
+                    "endLine": 732,
                     "endColumn": 12,
-                    "endOffset": 55638
+                    "endOffset": 56076
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4727,11 +4727,11 @@
             },
             {
                 "to": {
-                    "startLine": 695,
+                    "startLine": 733,
                     "startColumn": 4,
-                    "startOffset": 55643,
+                    "startOffset": 56081,
                     "endColumn": 117,
-                    "endOffset": 55756
+                    "endOffset": 56194
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4746,12 +4746,12 @@
             },
             {
                 "to": {
-                    "startLine": 696,
+                    "startLine": 734,
                     "startColumn": 4,
-                    "startOffset": 55761,
-                    "endLine": 700,
+                    "startOffset": 56199,
+                    "endLine": 738,
                     "endColumn": 12,
-                    "endOffset": 56135
+                    "endOffset": 56573
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4767,11 +4767,11 @@
             },
             {
                 "to": {
-                    "startLine": 701,
+                    "startLine": 739,
                     "startColumn": 4,
-                    "startOffset": 56140,
+                    "startOffset": 56578,
                     "endColumn": 121,
-                    "endOffset": 56257
+                    "endOffset": 56695
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4786,11 +4786,11 @@
             },
             {
                 "to": {
-                    "startLine": 702,
+                    "startLine": 740,
                     "startColumn": 4,
-                    "startOffset": 56262,
+                    "startOffset": 56700,
                     "endColumn": 111,
-                    "endOffset": 56369
+                    "endOffset": 56807
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4805,11 +4805,11 @@
             },
             {
                 "to": {
-                    "startLine": 703,
+                    "startLine": 741,
                     "startColumn": 4,
-                    "startOffset": 56374,
+                    "startOffset": 56812,
                     "endColumn": 115,
-                    "endOffset": 56485
+                    "endOffset": 56923
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4824,11 +4824,11 @@
             },
             {
                 "to": {
-                    "startLine": 704,
+                    "startLine": 742,
                     "startColumn": 4,
-                    "startOffset": 56490,
+                    "startOffset": 56928,
                     "endColumn": 99,
-                    "endOffset": 56585
+                    "endOffset": 57023
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4843,11 +4843,11 @@
             },
             {
                 "to": {
-                    "startLine": 705,
+                    "startLine": 743,
                     "startColumn": 4,
-                    "startOffset": 56590,
+                    "startOffset": 57028,
                     "endColumn": 114,
-                    "endOffset": 56700
+                    "endOffset": 57138
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4862,11 +4862,11 @@
             },
             {
                 "to": {
-                    "startLine": 706,
+                    "startLine": 744,
                     "startColumn": 4,
-                    "startOffset": 56705,
+                    "startOffset": 57143,
                     "endColumn": 99,
-                    "endOffset": 56800
+                    "endOffset": 57238
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4881,11 +4881,11 @@
             },
             {
                 "to": {
-                    "startLine": 707,
+                    "startLine": 745,
                     "startColumn": 4,
-                    "startOffset": 56805,
+                    "startOffset": 57243,
                     "endColumn": 103,
-                    "endOffset": 56904
+                    "endOffset": 57342
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4900,11 +4900,11 @@
             },
             {
                 "to": {
-                    "startLine": 708,
+                    "startLine": 746,
                     "startColumn": 4,
-                    "startOffset": 56909,
+                    "startOffset": 57347,
                     "endColumn": 95,
-                    "endOffset": 57000
+                    "endOffset": 57438
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4919,11 +4919,11 @@
             },
             {
                 "to": {
-                    "startLine": 709,
+                    "startLine": 747,
                     "startColumn": 4,
-                    "startOffset": 57005,
+                    "startOffset": 57443,
                     "endColumn": 87,
-                    "endOffset": 57088
+                    "endOffset": 57526
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4938,11 +4938,11 @@
             },
             {
                 "to": {
-                    "startLine": 710,
+                    "startLine": 748,
                     "startColumn": 4,
-                    "startOffset": 57093,
+                    "startOffset": 57531,
                     "endColumn": 91,
-                    "endOffset": 57180
+                    "endOffset": 57618
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4957,11 +4957,11 @@
             },
             {
                 "to": {
-                    "startLine": 711,
+                    "startLine": 749,
                     "startColumn": 4,
-                    "startOffset": 57185,
+                    "startOffset": 57623,
                     "endColumn": 113,
-                    "endOffset": 57294
+                    "endOffset": 57732
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",
@@ -4976,11 +4976,11 @@
             },
             {
                 "to": {
-                    "startLine": 712,
+                    "startLine": 750,
                     "startColumn": 4,
-                    "startOffset": 57299,
+                    "startOffset": 57737,
                     "endColumn": 102,
-                    "endOffset": 57397
+                    "endOffset": 57835
                 },
                 "from": {
                     "file": "C:\\Users\\Kevin\\AndroidStudioProjects\\HelloIOIOServiceIPC\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\19.1.0\\res\\values\\values.xml",

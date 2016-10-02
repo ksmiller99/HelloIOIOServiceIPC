@@ -32,9 +32,6 @@ public class SecondActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-
-
-
         toggleButton_ = (ToggleButton) findViewById(R.id.ToggleButton);
 
         //assume IOIO is disconnected at start
@@ -144,7 +141,7 @@ public class SecondActivity extends Activity {
     }
 
     //create handler for incoming messages (not broadcasts)
-    class IncomingHandler extends Handler {
+    static class IncomingHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
 

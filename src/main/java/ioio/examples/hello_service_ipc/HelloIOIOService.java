@@ -44,6 +44,7 @@ public class HelloIOIOService extends IOIOService {
     public void onCreate() {
 
         //create Intents for broadcast messages
+        Log.d("KSM","Service onCreate");
         setupIntent = new Intent();
         setupIntent.setAction("IOIO_CONNECTED");
 
@@ -54,7 +55,7 @@ public class HelloIOIOService extends IOIOService {
     }
 
 
-    class IncomingHandler extends Handler {
+    static class IncomingHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
 
