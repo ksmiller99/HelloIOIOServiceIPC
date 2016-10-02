@@ -141,7 +141,7 @@ public class SecondActivity extends Activity {
     }
 
     //create handler for incoming messages (not broadcasts)
-    static class IncomingHandler extends Handler {
+    class IncomingHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
 
