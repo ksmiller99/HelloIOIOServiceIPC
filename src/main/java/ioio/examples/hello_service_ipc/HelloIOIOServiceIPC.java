@@ -18,7 +18,7 @@ import ioio.lib.util.BaseIOIOLooper;
 import ioio.lib.util.IOIOLooper;
 import ioio.lib.util.android.IOIOService;
 
-public class HelloIOIOService extends IOIOService {
+public class HelloIOIOServiceIPC extends IOIOService {
 
     final Messenger messenger = new Messenger(new IncomingHandler());
 
@@ -184,7 +184,7 @@ public class HelloIOIOService extends IOIOService {
                     R.drawable.ic_launcher, "IOIO IPC service running",
                     System.currentTimeMillis());
             notification
-                    .setLatestEventInfo(this, "IOIO IPC Service", "Click to stop",
+                    .setLatestEventInfo(this, "IOIO IPC Service", "Running",
                             PendingIntent.getService(this, 0, new Intent(
                                     "stop", null, this, this.getClass()), 0));
             notification.flags |= Notification.FLAG_ONGOING_EVENT;
@@ -193,6 +193,7 @@ public class HelloIOIOService extends IOIOService {
         return result;
     }
 
+    @Override
     public IBinder onBind(Intent intent) {
         Log.d("KSM", "Service.onBind");
         return messenger.getBinder();

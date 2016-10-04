@@ -6,10 +6,12 @@
 
     <uses-sdk android:minSdkVersion="19" />
 
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature
@@ -26,9 +28,7 @@
             android:name="com.android.future.usb.accessory"
             android:required="false" />
 
-        <service
-            android:name="ioio.examples.hello_service_ipc.HelloIOIOService"
-            android:process=":remote" />
+        <service android:name="ioio.examples.hello_service_ipc.HelloIOIOServiceIPC" />
 
         <activity
             android:name="ioio.examples.hello_service_ipc.MainActivity"

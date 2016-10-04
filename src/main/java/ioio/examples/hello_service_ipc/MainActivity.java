@@ -30,10 +30,10 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.main);
+        setContentView(R.layout.activity_main);
 
         //start the IOIO Service
-        startService(new Intent(this, HelloIOIOService.class));
+        startService(new Intent(this, HelloIOIOServiceIPC.class));
 
         toggleButton_ = (ToggleButton) findViewById(R.id.ToggleButton);
 
@@ -41,7 +41,7 @@ public class MainActivity extends Activity {
         enableUi(false);
 
         //bind to  the IOIO service
-        Intent intent = new Intent(this, HelloIOIOService.class);
+        Intent intent = new Intent(this, HelloIOIOServiceIPC.class);
         bindService(intent, serviceConnection, Context.BIND_AUTO_CREATE);
         Log.d("KSM", "Main.onCreate Finished");
     }
@@ -58,7 +58,7 @@ public class MainActivity extends Activity {
             messenger = new Messenger(service);
 
             //update UI elements to match IOIO state
-            Message msg = Message.obtain(null, HelloIOIOService.IOIO_STATUS_REQUEST);
+            Message msg = Message.obtain(null, HelloIOIOServiceIPC.IOIO_STATUS_REQUEST);
             msg.replyTo = new Messenger(new IncomingHandler());
             try {
                 messenger.send(msg);
@@ -66,7 +66,7 @@ public class MainActivity extends Activity {
                 e.printStackTrace();
             }
 
-            msg = Message.obtain(null, HelloIOIOService.LED_STATUS_REQUEST);
+            msg = Message.obtain(null, HelloIOIOServiceIPC.LED_STATUS_REQUEST);
             msg.replyTo = new Messenger(new IncomingHandler());
             try {
                 messenger.send(msg);
@@ -77,7 +77,7 @@ public class MainActivity extends Activity {
 
         @Override
         public void onServiceDisconnected(ComponentName name) {
-            Log.d("KSM", "main.onServiceDisconnect");
+            Log.d("KSM", "activity_main.onServiceDisconnect");
 
             // unbind or process might have crashes
             messenger = null;
@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
 
         //update UI elements to match IOIO state
         if (isBound) {
-            Message msg = Message.obtain(null, HelloIOIOService.IOIO_STATUS_REQUEST);
+            Message msg = Message.obtain(null, HelloIOIOServiceIPC.IOIO_STATUS_REQUEST);
             msg.replyTo = new Messenger(new IncomingHandler());
             try {
                 messenger.send(msg);
@@ -103,7 +103,7 @@ public class MainActivity extends Activity {
                 e.printStackTrace();
             }
 
-            msg = Message.obtain(null, HelloIOIOService.LED_STATUS_REQUEST);
+            msg = Message.obtain(null, HelloIOIOServiceIPC.LED_STATUS_REQUEST);
             msg.replyTo = new Messenger(new IncomingHandler());
             try {
                 messenger.send(msg);
@@ -149,27 +149,27 @@ public class MainActivity extends Activity {
         public void handleMessage(Message msg) {
 
             switch (msg.what) {
-                case HelloIOIOService.LED_ON_REPLY:
+                case HelloIOIOServiceIPC.LED_ON_REPLY:
                     Log.d("KSM", "LED_ON_REPLY message handled");
                     toggleButton_.setChecked(true);
                     break;
 
-                case HelloIOIOService.LED_OFF_REPLY:
+                case HelloIOIOServiceIPC.LED_OFF_REPLY:
                     Log.d("KSM", "LED_OFF_REPLY message handled");
                     toggleButton_.setChecked(false);
                     break;
 
-                case HelloIOIOService.LED_STATUS_REPLY:
+                case HelloIOIOServiceIPC.LED_STATUS_REPLY:
                     toggleButton_.setChecked(msg.arg1 == 1);
                     Log.d("KSM", "LED_STATUS_REPLY: " + msg.arg1 + " message handled");
                     break;
 
-                case HelloIOIOService.IOIO_STATUS_REPLY:
+                case HelloIOIOServiceIPC.IOIO_STATUS_REPLY:
                     enableUi(msg.arg1 == 1);
                     Log.d("KSM", "IOIO_STATUS_REPLY: " + msg.arg1 + " message handled");
                     break;
 
-                case HelloIOIOService.ERROR_REPLY:
+                case HelloIOIOServiceIPC.ERROR_REPLY:
                     Log.d("KSM", "ERROR_REPLY to message type: " + msg.arg1 + " message handled");
                     break;
 
@@ -187,9 +187,9 @@ public class MainActivity extends Activity {
 
         //set message type based on toggle status after clicking
         if (tgl.isChecked())
-            msgType = HelloIOIOService.LED_ON_REQUEST;
+            msgType = HelloIOIOServiceIPC.LED_ON_REQUEST;
         else
-            msgType = HelloIOIOService.LED_OFF_REQUEST;
+            msgType = HelloIOIOServiceIPC.LED_OFF_REQUEST;
 
         //revert button state so that IOIO can control it via the reply message in case
         //there is some unknown reason in the service that would prevent the state change
@@ -238,6 +238,8 @@ public class MainActivity extends Activity {
             }
         });
     }
+
+
 }
 
 

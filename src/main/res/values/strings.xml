@@ -5,5 +5,5 @@
     <string name="seekbar_label">Move to control the position:</string>
     <string name="analog_label">Analog reading:</string>
     <string name="second_activity_label">Second Activity</string>
-
+    <string name="main_activity_label">Main Activity</string>
 </resources>
