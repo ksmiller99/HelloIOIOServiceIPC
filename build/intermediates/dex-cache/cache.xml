@@ -34,7 +34,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="3bac956ca2f050aee59be65ea61682dbc836b710">
+        sha1="e27e7760f9f5c23dd706a46fa5437100b98fc875">
         <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\instant-run-bootstrap_522bfa426afd466cdbbd762146c5d8881b249126.jar" />
     </item>
     <item
@@ -43,26 +43,8 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.2"
-        sha1="a03f10083e9e7cb4cdad0f493ffe2684c8975b5e">
+        sha1="93d2d3927313d02b1737a5c563b238883abf7396">
         <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\instant-run_2a3cf155f3f444e82216a024767d2677c15b5389.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.07\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
-        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.07_e2b06962d000df5708b3aaaa59bc08fdf14276d8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\Kevin\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.07\34f07b578c6819579415ddbfc6c418c6008f7ef2\IOIOLibCore-5.07.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.2"
-        sha1="34f07b578c6819579415ddbfc6c418c6008f7ef2">
-        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\IOIOLibCore-5.07_ad4b60ae5fc5ba5be0e3af6ffbf2ca9c98abd770.jar" />
     </item>
     <item
         is-multidex="false"
@@ -81,6 +63,24 @@
         revision="23.0.2"
         sha1="9ad262bc3131b4f369d6c13240ec9cfac6278732">
         <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroidDevice-5.07_e1b7a090f9f37c013bcc1713bc114472bd695e74.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\exploded-aar\com.github.ytai.ioio\IOIOLibAndroid\5.07\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="560f73c668e2dc95526f06d9a684fad99867f01b">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\com.github.ytai.ioio-IOIOLibAndroid-5.07_e2b06962d000df5708b3aaaa59bc08fdf14276d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Kevin\.gradle\caches\modules-2\files-2.1\com.github.ytai.ioio\IOIOLibCore\5.07\34f07b578c6819579415ddbfc6c418c6008f7ef2\IOIOLibCore-5.07.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="34f07b578c6819579415ddbfc6c418c6008f7ef2">
+        <dex dex="C:\Users\Kevin\AndroidStudioProjects\HelloIOIOServiceIPC\build\intermediates\pre-dexed\debug\IOIOLibCore-5.07_ad4b60ae5fc5ba5be0e3af6ffbf2ca9c98abd770.jar" />
     </item>
 
 </items>

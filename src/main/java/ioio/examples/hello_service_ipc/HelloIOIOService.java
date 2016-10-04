@@ -22,7 +22,6 @@ public class HelloIOIOService extends IOIOService {
 
     final Messenger messenger = new Messenger(new IncomingHandler());
 
-
     public static final int IOIO_STATUS_REQUEST = 0;    //request IOIO Status
     public static final int IOIO_STATUS_REPLY   = 1;    //request IOIO Status
     public static final int ERROR_REPLY         = 2;    //TODO determine error details
@@ -42,6 +41,7 @@ public class HelloIOIOService extends IOIOService {
 
     @Override
     public void onCreate() {
+        super.onCreate();
 
         //create Intents for broadcast messages
         Log.d("KSM","Service onCreate");
@@ -51,7 +51,6 @@ public class HelloIOIOService extends IOIOService {
         disconnectedIntent = new Intent();
         disconnectedIntent.setAction("IOIO_DISCONNECTED");
 
-        super.onCreate();
     }
 
 
